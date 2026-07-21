@@ -1,0 +1,14 @@
+.git
+.next
+.vercel
+node_modules
+.env*
+*.log
+*.tsbuildinfo
+
+# 배포 실행에 필요하지 않은 원본·작업 자료
+source
+CODEX_PROMPT.md
+data/reports
+tests
+supabase

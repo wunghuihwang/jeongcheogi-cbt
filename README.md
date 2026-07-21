@@ -16,6 +16,13 @@ pnpm dev
 
 서비스 워커를 포함한 완전한 PWA 설치·오프라인 동작은 브라우저 보안 정책상 신뢰되는 HTTPS 주소(또는 같은 기기의 localhost)에서만 활성화됩니다. HTTPS로 배포한 뒤 iOS는 Safari 공유 메뉴의 “홈 화면에 추가”, Android는 Chrome의 “앱 설치”를 사용합니다. LAN의 HTTP 주소에서 추가한 아이콘은 오프라인 PWA가 아니라 바로가기로 동작할 수 있습니다.
 
+## 배포
+
+- 프로덕션: [https://jeongcheogi-cbt.vercel.app](https://jeongcheogi-cbt.vercel.app)
+- 수동 배포: `npx vercel@latest --prod --archive=tgz`
+- `.vercelignore`를 통해 원본 PDF, 작업 지침, 테스트와 보고서는 업로드에서 제외합니다.
+- GitHub 자동 배포는 연결하지 않으며 필요할 때 CLI로 배포합니다.
+
 ## 데이터 명령
 
 - `pnpm extract:exams`: PDF 텍스트 레이어와 이미지 참조를 분석해 `data/imported` JSON 생성
