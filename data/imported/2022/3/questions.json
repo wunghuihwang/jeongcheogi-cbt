@@ -1,0 +1,3935 @@
+{
+  "schemaVersion": 1,
+  "year": 2022,
+  "round": 3,
+  "title": "2022년 3회 정보처리기사 필기",
+  "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+  "sourceSha256": "44ecf69d5c89be527073b2c26442ee85d78a4af93e63d95195743a52f25c11c1",
+  "sourcePages": 8,
+  "extractedAt": "2026-07-21T07:39:53.965Z",
+  "questions": [
+    {
+      "questionNo": 1,
+      "subject": "소프트웨어 설계",
+      "questionText": "소프트웨어 공학에서 워크스루(Walkthrough)에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "소프트웨어 공학에서 워크스루(Walkthrough)에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 사용사례를 확장하여 명세하거나 설계 다이어그램, 원시코드, 테스트 케이스 등에 적용할 수 있다.",
+          "normalized": "사용 사례를 확장하여 명세하거나 설계 다이어그램, 원시 코드, 테스트 케이스 등에 적용할 수 있다."
+        },
+        "B": {
+          "original": "② 복잡한 알고리즘 또는 반복, 실시간 동작, 병행 처리와 같은 기능이나 동작을 이해하려고 할 때 유용하다.",
+          "normalized": "복잡한 알고리즘 또는 반복, 실시간 동작, 병행 처리와 같은 기능이나 동작을 이해하려고 할 때 유용하다."
+        },
+        "C": {
+          "original": "③ 인스펙션(Inspection)과 동일한 의미를 가진다.",
+          "normalized": "인스펙션(Inspection)과 동일한 의미를 가진다."
+        },
+        "D": {
+          "original": "④ 단순한 테스트 케이스를 이용하여 프로덕트를 수작업으로 수 행해 보는 것이다.",
+          "normalized": "단순한 테스트 케이스를 이용하여 프로덕트를 수작업으로 수행해 보는 것이다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "695e573025a5b146c7f63586a5d167286d8480b3c6a52de1ea1088006bf189fa",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "워크스루는 작성자가 주도해 동료들과 산출물을 검토하는 비공식 검토 기법이다. 엄격한 절차와 역할을 따르는 인스펙션과는 구별되므로 둘이 동일하다는 설명이 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 2,
+      "subject": "소프트웨어 설계",
+      "questionText": "다음 결합도의 종류에 대한 설명 중 틀린 것은?",
+      "originalQuestionText": "다음 결합도의 종류에 대한 설명 중 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 자료 결합도 : 모듈 간의 인터페이스가 자료 요소로만 구성될 때의 결합도",
+          "normalized": "자료 결합도: 모듈 간의 인터페이스가 자료 요소로만 구성될 때의 결합도"
+        },
+        "B": {
+          "original": "② 내용 결합도 : 한 모듈이 다른 모듈과 제어 신호를 이용하여 통신하고, 공유되는 공통 데이터 영역을 사용할 때의 결합도",
+          "normalized": "내용 결합도: 한 모듈이 다른 모듈과 제어 신호를 이용하여 통신하고, 공유되는 공통 데이터 영역을 사용할 때의 결합도"
+        },
+        "C": {
+          "original": "③ 스탬프 결합도 : 모듈 간의 인터페이스로, 배열의 자료 구조가 전달될 때의 결합도",
+          "normalized": "스탬프 결합도: 모듈 간의 인터페이스로, 배열의 자료 구조가 전달될 때의 결합도"
+        },
+        "D": {
+          "original": "④ 외부 결합도 : 어떤 모듈에서 선언한 데이터를 다른 모듈에서 참조할 때의 결합도",
+          "normalized": "외부 결합도: 어떤 모듈에서 선언한 데이터를 다른 모듈에서 참조할 때의 결합도"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "abb250db9d5fdf067cde2eb9b77cc8fceecd92e7f971515b0c68582b5727aefd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "내용 결합은 한 모듈이 다른 모듈의 내부 데이터나 코드로 직접 접근하는 가장 강한 결합이다. 제어 신호 전달과 공통 데이터 공유를 내용 결합으로 함께 설명한 B가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 3,
+      "subject": "소프트웨어 설계",
+      "questionText": "익스트림 프로그래밍(eXtreme Programming)의 5가지 가치에 속하지 않는 것은?",
+      "originalQuestionText": "익스트림 프로그래밍(eXtreme Programming)의 5가지 가치에 속하 지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 의사소통",
+          "normalized": "의사소통"
+        },
+        "B": {
+          "original": "② 단순성",
+          "normalized": "단순성"
+        },
+        "C": {
+          "original": "③ 피드백",
+          "normalized": "피드백"
+        },
+        "D": {
+          "original": "④ 고객 배제",
+          "normalized": "고객 배제"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d5a7d9fd11bcbcb7182c995f572a01d28e8c5e132f646006c45d716937978579",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "XP의 5가지 가치는 의사소통, 단순성, 피드백, 용기와 존중이다. 고객과 긴밀히 협력하는 방법론이므로 고객 배제는 XP 가치가 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 4,
+      "subject": "소프트웨어 설계",
+      "questionText": "HIPO(Hierarchy Input Process Output)에 대한 설명으로 거리가 먼 것은?",
+      "originalQuestionText": "HIPO(Hierarchy Input Process Output)에 대한 설명으로 거리가 먼 것은?",
+      "choices": {
+        "A": {
+          "original": "① 상향식 소프트웨어 개발을 위한 문서화 도구이다.",
+          "normalized": "상향식 소프트웨어 개발을 위한 문서화 도구이다."
+        },
+        "B": {
+          "original": "② HIPO 차트 종류에는 가시적 도표, 총체적 도표, 세부적 도표가 있다.",
+          "normalized": "HIPO 차트 종류에는 가시적 도표, 총체적 도표, 세부적 도표가 있다."
+        },
+        "C": {
+          "original": "③ 기능과 자료의 의존 관계를 동시에 표현할 수 있다.",
+          "normalized": "기능과 자료의 의존 관계를 동시에 표현할 수 있다."
+        },
+        "D": {
+          "original": "④ 보기 쉽고 이해하기 쉽다.",
+          "normalized": "보기 쉽고 이해하기 쉽다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cf7a39711cc535b0bb2b481e495ab95ec6b77cd16d8c82466cb9d5b54b8cd535",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "HIPO는 상위 기능을 하위 기능으로 단계적으로 분해하는 하향식 설계·문서화 도구다. 상향식 개발 도구라는 A가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 5,
+      "subject": "소프트웨어 설계",
+      "questionText": "모바일 기기에서 사용하는 NUI 인터페이스에 속하지 않는 것은 무엇인가?",
+      "originalQuestionText": "모바일 기기에서 사용하는 NUI 인터페이스에 속하지 않는 것은 무엇인가?",
+      "choices": {
+        "A": {
+          "original": "① Pinch",
+          "normalized": "Pinch"
+        },
+        "B": {
+          "original": "② Press",
+          "normalized": "Press"
+        },
+        "C": {
+          "original": "③ Flow",
+          "normalized": "Flow"
+        },
+        "D": {
+          "original": "④ Flick",
+          "normalized": "Flick"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "8b7eb0faa8ff8ea0b547087a80661e9e83e8e1cac6738999c0b2ce211790ca8f",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Pinch, Press, Flick은 터치 기반 NUI에서 사용하는 손가락 제스처다. Flow는 일반적인 모바일 NUI 제스처 명칭이 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 6,
+      "subject": "소프트웨어 설계",
+      "questionText": "UML 확장 모델에서 스테레오 타입 객체를 표현할 때 사용하는 기호로 맞는 것은?",
+      "originalQuestionText": "UML 확장 모델에서 스테레오 타입 객체를 표현할 때 사용하는 기호로 맞는 것은?",
+      "choices": {
+        "A": {
+          "original": "① << >>",
+          "normalized": "<< >>"
+        },
+        "B": {
+          "original": "② (( ))",
+          "normalized": "(( ))"
+        },
+        "C": {
+          "original": "③ {{ }}",
+          "normalized": "{{ }}"
+        },
+        "D": {
+          "original": "④ [[ ]]",
+          "normalized": "[[ ]]"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "30de43a3ef325b9e7ae16b166595d329968d3e0f42eecedb71e07e29912c6a28",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "UML 스테레오타입은 기존 모델 요소의 의미를 확장하며 길러멧 표기인 <<이름>>으로 나타낸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 7,
+      "subject": "소프트웨어 설계",
+      "questionText": "보헴이 제안한 것으로, 위험 분석 기능이 있으며, 여러 번의 개발 과정을 거쳐 점진적으로 개발하는 모형은?",
+      "originalQuestionText": "보헴이 제안한 것으로, 위험 분석 기능이 있으며, 여러 번의 개발 과정을 거쳐 점진적으로 개발하는 모형은?",
+      "choices": {
+        "A": {
+          "original": "① 나선형 모형",
+          "normalized": "나선형 모형"
+        },
+        "B": {
+          "original": "② 애자일 모형",
+          "normalized": "애자일 모형"
+        },
+        "C": {
+          "original": "③ 프로토타입 모형",
+          "normalized": "프로토타입 모형"
+        },
+        "D": {
+          "original": "④ 폭포수 모형",
+          "normalized": "폭포수 모형"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "1612460e53f982b91303fa1b8cb1a8e09e9134fad13793af6c427b117be32daf",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "나선형 모형은 Boehm이 제안했으며 계획, 위험 분석, 개발·검증, 고객 평가를 반복해 위험을 관리하면서 시스템을 점진적으로 완성한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 8,
+      "subject": "소프트웨어 설계",
+      "questionText": "UI 설계 원칙 중 누구나 쉽게 이해하고 사용할 수 있어야 한다는 원칙은?",
+      "originalQuestionText": "UI 설계 원칙 중 누구나 쉽게 이해하고 사용할 수 있어야 한다는 원칙은?",
+      "choices": {
+        "A": {
+          "original": "① 희소성",
+          "normalized": "희소성"
+        },
+        "B": {
+          "original": "② 유연성",
+          "normalized": "유연성"
+        },
+        "C": {
+          "original": "③ 직관성",
+          "normalized": "직관성"
+        },
+        "D": {
+          "original": "④ 멀티운용성",
+          "normalized": "멀티운용성"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "c8af29dd3888274a0f78538dae16e3d9844a592dfec865b2db6f1118faf7e5d1",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "직관성은 누구나 화면과 기능의 의미를 쉽게 이해하고 별도의 학습 부담 없이 사용할 수 있어야 한다는 UI 설계 원칙이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 9,
+      "subject": "소프트웨어 설계",
+      "questionText": "자료 흐름도(Data Flow Diagram)의 구성 요소로 옳은 것은?",
+      "originalQuestionText": "자료 흐름도(Data Flow Diagram)의 구성 요소로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① process, data flow, data store, comment",
+          "normalized": "process, data flow, data store, comment"
+        },
+        "B": {
+          "original": "② process, data flow, data store, terminator",
+          "normalized": "process, data flow, data store, terminator"
+        },
+        "C": {
+          "original": "③ data flow, data store, terminator, data dictionary",
+          "normalized": "data flow, data store, terminator, data dictionary"
+        },
+        "D": {
+          "original": "④ process, data store, terminator, mini-spec",
+          "normalized": "process, data store, terminator, mini-spec"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "4620e3b226fc3bc09a4e869063d516c93bd68ef36fe47646dd42d76e9e304fb0",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "DFD의 기본 구성 요소는 프로세스, 자료 흐름, 자료 저장소, 단말 또는 외부 개체다. 자료 사전과 소단위 명세서는 DFD를 보완하는 별도 문서다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 10,
+      "subject": "소프트웨어 설계",
+      "questionText": "다음 중 SOLID 원칙이라고 불리는 객체지향 설계 원칙에 속하지 않는 것은?",
+      "originalQuestionText": "다음 중 SOLID 원칙이라고 불리는 객체지향 설계 원칙에 속하지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① ISP(Interface Segregation Principle)",
+          "normalized": "ISP(Interface Segregation Principle)"
+        },
+        "B": {
+          "original": "② DIP(Dependency Inversion Principle)",
+          "normalized": "DIP(Dependency Inversion Principle)"
+        },
+        "C": {
+          "original": "③ LSP(Liskov Substitution Principle)",
+          "normalized": "LSP(Liskov Substitution Principle)"
+        },
+        "D": {
+          "original": "④ SSO(Single Sign On)",
+          "normalized": "SSO(Single Sign On)"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "0a7717e1e643eb528f8a7817dbc321a201f59080ec09c6b43f55d9a67185f167",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "SOLID에는 단일 책임, 개방-폐쇄, 리스코프 치환, 인터페이스 분리, 의존 역전 원칙이 있다. SSO는 통합 인증 방식으로 객체지향 설계 원칙이 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 11,
+      "subject": "소프트웨어 설계",
+      "questionText": "UML 모델에서 한 사물의 명세가 바뀌면 다른 사물에 영향을 주며, 일반적으로 한 클래스가 다른 클래스를 오퍼레이션의 매개 변수로 사용하는 경우에 나타나는 관계는?",
+      "originalQuestionText": "UML 모델에서 한 사물의 명세가 바뀌면 다른 사물에 영향을 주며, 일반적으로 한 클래스가 다른 클래스를 오퍼레이션의 매개 변수로 사용하는 경우에 나타나는 관계는?",
+      "choices": {
+        "A": {
+          "original": "① Association",
+          "normalized": "Association"
+        },
+        "B": {
+          "original": "② Dependency",
+          "normalized": "Dependency"
+        },
+        "C": {
+          "original": "③ Realization",
+          "normalized": "Realization"
+        },
+        "D": {
+          "original": "④ Generalization",
+          "normalized": "Generalization"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "97d2e46fd8ff335d04375ae426c3e231fcf8672fc0d802c3fe60dda3c6d684b9",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "의존(Dependency)은 한 사물의 변경이 이를 사용하는 다른 사물에 영향을 미치는 관계다. 한 클래스가 다른 클래스를 연산의 매개변수나 지역 변수로 사용하는 경우가 대표적이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 12,
+      "subject": "소프트웨어 설계",
+      "questionText": "객체에게 어떤 행위를 하도록 지시하는 명령은?",
+      "originalQuestionText": "객체에게 어떤 행위를 하도록 지시하는 명령은?",
+      "choices": {
+        "A": {
+          "original": "① Class",
+          "normalized": "Class"
+        },
+        "B": {
+          "original": "② Package",
+          "normalized": "Package"
+        },
+        "C": {
+          "original": "③ Object",
+          "normalized": "Object"
+        },
+        "D": {
+          "original": "④ Message",
+          "normalized": "Message"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "35b5a5debf83a3717f4baa30a84bb90d122f8e5238b0e6a64883154d3a655ef9",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "메시지는 객체에게 특정 행위를 수행하도록 요청하거나 정보를 전달하는 객체 간 통신 수단이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 13,
+      "subject": "소프트웨어 설계",
+      "questionText": "다음 내용이 설명하는 디자인 패턴은?\n\n• 하나의 객체를 생성하면 생성된 객체를 어디서든 참조할 수 있지만, 여러 프로세스가 동시에 참조할 수는 없다.\n• 클래스 내에서 인스턴스가 하나뿐임을 보장하며, 불필요한 메모리 낭비를 최소화할 수 있다.",
+      "originalQuestionText": "다음 내용이 설명하는 디자인 패턴은?  ㆍ하나의 객체를 생성하면 생성된 객체를 어디서든 참 조할 수 있지만, 여러 프로세스가 동시에 참조할 수는 없다. ㆍ클래스 내에서 인스턴스가 하나뿐임을 보장하며, 불필 요한 메모리 낭비를 최소화 할 수 있다.",
+      "choices": {
+        "A": {
+          "original": "① Singleton",
+          "normalized": "Singleton"
+        },
+        "B": {
+          "original": "② Adapter",
+          "normalized": "Adapter"
+        },
+        "C": {
+          "original": "③ Prototype",
+          "normalized": "Prototype"
+        },
+        "D": {
+          "original": "④ Decorator",
+          "normalized": "Decorator"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 1,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "91c508ce3a7c5c9e725bb6fb4ddc1f05d4a9739dba1c5c40d94ab889a95586a1",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Singleton은 클래스의 인스턴스를 하나만 생성하도록 보장하고 어디서든 동일한 인스턴스에 접근하게 해 중복 생성과 메모리 낭비를 줄이는 생성 패턴이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 14,
+      "subject": "소프트웨어 설계",
+      "questionText": "파이프 필터 형태의 소프트웨어 아키텍처에 대한 설명으로 옳은 것은?",
+      "originalQuestionText": "파이프 필터 형태의 소프트웨어 아키텍처에 대한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 노드와 간선으로 구성된다.",
+          "normalized": "노드와 간선으로 구성된다."
+        },
+        "B": {
+          "original": "② 서브시스템이 입력 데이터를 받아 처리하고 결과를 다음 서브 시스템으로 넘겨주는 과정을 반복한다.",
+          "normalized": "서브시스템이 입력 데이터를 받아 처리하고 결과를 다음 서브시스템으로 넘겨주는 과정을 반복한다."
+        },
+        "C": {
+          "original": "③ 계층 모델이라고도 한다.",
+          "normalized": "계층 모델이라고도 한다."
+        },
+        "D": {
+          "original": "④ 3개의 서브시스템(모델, 뷰, 제어)으로 구성되어 있다.",
+          "normalized": "3개의 서브시스템(모델, 뷰, 제어)으로 구성되어 있다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "f7fdc7226d232ae24e2f5fc3393d3e31a320915abb8b896e4c08483e4e8acc42",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "파이프-필터 구조에서는 각 필터가 입력을 처리한 뒤 그 결과를 파이프를 통해 다음 필터로 전달한다. 이 과정이 연속적으로 반복되는 설명이 핵심이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 15,
+      "subject": "소프트웨어 설계",
+      "questionText": "대표적으로 DOS 및 Unix 등의 운영체제에서 조작을 위해 사용하던 것으로, 정해진 명령 문자열을 입력하여 시스템을 조작하는 사용자 인터페이스(User Interface)는?",
+      "originalQuestionText": "대표적으로 DOS 및 Unix 등의 운영체제에서 조작을 위해 사용하던 것으로, 정해진 명령 문자열을 입력하여 시스템을 조작하는 사용자 인터페이스(User Interface)는?",
+      "choices": {
+        "A": {
+          "original": "① GUI(Graphical User Interface)",
+          "normalized": "GUI(Graphical User Interface)"
+        },
+        "B": {
+          "original": "② CLI(Command Line Interface)",
+          "normalized": "CLI(Command Line Interface)"
+        },
+        "C": {
+          "original": "③ CUI(Cell User Interface)",
+          "normalized": "CUI(Cell User Interface)"
+        },
+        "D": {
+          "original": "④ MUI(Mobile User Interface)",
+          "normalized": "MUI(Mobile User Interface)"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "23fc9391ccb068b3541a18d2471943d764d88ded4e56341fe5f72a8d54edfbc8",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "CLI는 정해진 명령 문자열을 키보드로 입력해 운영체제나 프로그램을 조작하는 명령줄 사용자 인터페이스다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 16,
+      "subject": "소프트웨어 설계",
+      "questionText": "UML에서 시퀀스 다이어그램의 구성 항목에 해당하지 않는 것은?",
+      "originalQuestionText": "UML에서 시퀀스 다이어그램의 구성 항목에 해당하지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 생명선",
+          "normalized": "생명선"
+        },
+        "B": {
+          "original": "② 실행",
+          "normalized": "실행"
+        },
+        "C": {
+          "original": "③ 확장",
+          "normalized": "확장"
+        },
+        "D": {
+          "original": "④ 메시지",
+          "normalized": "메시지"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "95c25714924e668ef515377e91455ac71f7da1f3f208fd98a11e1060eec381e5",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "시퀀스 다이어그램의 주요 구성 요소는 객체 또는 생명선, 실행, 메시지 등이다. 확장은 유스케이스 관계에서 주로 사용하는 개념이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 17,
+      "subject": "소프트웨어 설계",
+      "questionText": "다음은 어떤 프로그램 구조를 나타낸다. 모듈 F에서의 Fan-In과 Fan-Out의 수는 얼마인가?",
+      "originalQuestionText": "다음은 어떤 프로그램 구조를 나타낸다. 모듈 F에서의 fan-in과 fan-out의 수는 얼마인가?",
+      "choices": {
+        "A": {
+          "original": "① fan-in : 2, fan-out : 3",
+          "normalized": "fan-in: 2, fan-out: 3"
+        },
+        "B": {
+          "original": "② fan-in : 3, fan-out : 2",
+          "normalized": "fan-in: 3, fan-out: 2"
+        },
+        "C": {
+          "original": "③ fan-in : 1, fan-out : 2",
+          "normalized": "fan-in: 1, fan-out: 2"
+        },
+        "D": {
+          "original": "④ fan-in : 2, fan-out : 1",
+          "normalized": "fan-in: 2, fan-out: 1"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "803067d078c385402813eeab76798ed9f7b7cbcfcdabee467c4017e68950f20e",
+      "assets": [
+        {
+          "type": "diagram",
+          "path": "assets/question-17-module-structure.png",
+          "pageNumber": 2,
+          "altText": "모듈 F의 fan-in과 fan-out을 구하기 위한 프로그램 구조도"
+        }
+      ],
+      "hasImageReference": true,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Fan-In은 해당 모듈을 호출하는 상위 모듈 수이고 Fan-Out은 해당 모듈이 호출하는 하위 모듈 수다. 그림의 F는 각각 3개와 2개다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 18,
+      "subject": "소프트웨어 설계",
+      "questionText": "객체지향 개념에서 연관된 데이터와 함수를 함께 묶어 외부와 경계를 만들고 필요한 인터페이스만을 밖으로 드러내는 과정은?",
+      "originalQuestionText": "객체지향 개념에서 연관된 데이터와 함수를 함께 묶어 외부와 경계를 만들고 필요한 인터페이스만을 밖으로 드러내는 과정은?",
+      "choices": {
+        "A": {
+          "original": "① 메시지(Message)",
+          "normalized": "메시지(Message)"
+        },
+        "B": {
+          "original": "② 캡슐화(Encapsulation)",
+          "normalized": "캡슐화(Encapsulation)"
+        },
+        "C": {
+          "original": "③ 다형성(Polymorphism)",
+          "normalized": "다형성(Polymorphism)"
+        },
+        "D": {
+          "original": "④ 상속(Inheritance)",
+          "normalized": "상속(Inheritance)"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "f7177567020373c2edafac12f78db08f6a7bb6c2455ecbac03932dd120092ab5",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "캡슐화는 객체의 데이터와 이를 처리하는 메서드를 하나로 묶고 내부 구현을 감춘 채 필요한 인터페이스만 외부에 제공하는 과정이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 19,
+      "subject": "소프트웨어 설계",
+      "questionText": "그래픽 표기법을 이용하여 소프트웨어 구성 요소를 모델링하는 럼바우 분석 기법에 포함되지 않는 것은?",
+      "originalQuestionText": "그래픽 표기법을 이용하여 소프트웨어 구성 요소를 모델링하는 럼바우 분석 기법에 포함되지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 객체 모델링",
+          "normalized": "객체 모델링"
+        },
+        "B": {
+          "original": "② 기능 모델링",
+          "normalized": "기능 모델링"
+        },
+        "C": {
+          "original": "③ 동적 모델링",
+          "normalized": "동적 모델링"
+        },
+        "D": {
+          "original": "④ 블랙박스 분석 모델링",
+          "normalized": "블랙박스 분석 모델링"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "74e067e3440cd320b150f14eb34ee6e7425db512192bdd6def7d912f825ff67a",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Rumbaugh 분석은 객체 모델링, 동적 모델링과 기능 모델링으로 시스템을 표현한다. 블랙박스 분석 모델링은 세 가지 모델에 포함되지 않는다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 20,
+      "subject": "소프트웨어 설계",
+      "questionText": "분산 컴퓨팅 환경에서 서로 다른 기종 간의 하드웨어나 프로토콜, 통신환경 등을 연결하여 응용 프로그램과 운영환경 간에 원만한 통신이 이루어질 수 있게 서비스를 제공하는 소프트웨어는?",
+      "originalQuestionText": "분산 컴퓨팅 환경에서 서로 다른 기종 간의 하드웨어나 프로토콜, 통신환경 등을 연결하여 응용 프로그램과 운영환경 간에 원만한 통신이 이루어질 수 있게 서비스를 제공하는 소프트웨어는?",
+      "choices": {
+        "A": {
+          "original": "① 미들웨어",
+          "normalized": "미들웨어"
+        },
+        "B": {
+          "original": "② 하드웨어",
+          "normalized": "하드웨어"
+        },
+        "C": {
+          "original": "③ 오픈허브웨어",
+          "normalized": "오픈허브웨어"
+        },
+        "D": {
+          "original": "④ 그레이웨어",
+          "normalized": "그레이웨어"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d434cba67c5a5167b66c80d5dc43b23ebf0a011e945eef3aae115c54011b642a",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "미들웨어는 서로 다른 하드웨어, 운영체제와 통신 프로토콜 사이의 차이를 중개해 분산 환경의 애플리케이션이 원활하게 통신하도록 공통 서비스를 제공한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 21,
+      "subject": "소프트웨어 개발",
+      "questionText": "소프트웨어 테스트와 관련한 설명으로 틀린 것은?",
+      "originalQuestionText": "소프트웨어 테스트와 관련한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 화이트박스 테스트는 모듈의 논리적인 구조를 체계적으로 점 검할 수 있다.",
+          "normalized": "화이트박스 테스트는 모듈의 논리적인 구조를 체계적으로 점검할 수 있다."
+        },
+        "B": {
+          "original": "② 블랙박스 테스트는 프로그램의 구조를 고려하지 않는다.",
+          "normalized": "블랙박스 테스트는 프로그램의 구조를 고려하지 않는다."
+        },
+        "C": {
+          "original": "③ 테스트 케이스에는 일반적으로 시험 조건, 테스트 데이터, 예상 결과가 포함되어야 한다.",
+          "normalized": "테스트 케이스에는 일반적으로 시험 조건, 테스트 데이터, 예상 결과가 포함되어야 한다."
+        },
+        "D": {
+          "original": "④ 화이트박스 테스트에서 기본 경로(Basis Path)란 흐름 그래프 의 시작 노드에서 종료 노드까지의 서로 독립된 경로로 싸이클 을 허용하지 않는 경로를 말한다.",
+          "normalized": "화이트박스 테스트에서 기본 경로(Basis Path)란 흐름 그래프의 시작 노드에서 종료 노드까지의 서로 독립된 경로로 사이클을 허용하지 않는 경로를 말한다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d3a05714cadccb0abe9c2c163fe0575c9a9766b2aa13666ded4d0f0f7ddf2e2a",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "기본 경로 테스트의 독립 경로는 이전 경로에 없던 간선을 적어도 하나 포함하는 경로다. 순환 구조를 포함할 수도 있으므로 사이클을 허용하지 않는다는 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 22,
+      "subject": "소프트웨어 개발",
+      "questionText": "디지털 저작권 관리(DRM)의 기술 요소가 아닌 것은?",
+      "originalQuestionText": "디지털 저작권 관리(DRM)의 기술 요소가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① 크랙 방지 기술",
+          "normalized": "크랙 방지 기술"
+        },
+        "B": {
+          "original": "② 정책 관리 기술",
+          "normalized": "정책 관리 기술"
+        },
+        "C": {
+          "original": "③ 암호화 기술",
+          "normalized": "암호화 기술"
+        },
+        "D": {
+          "original": "④ 방화벽 기술",
+          "normalized": "방화벽 기술"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "e3625078b352b809565f3378389a0278a3c4c23fc3027105967acef692130851",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "DRM은 콘텐츠 암호화, 정책·권한 관리, 크랙 방지 같은 기술로 저작권을 보호한다. 방화벽은 네트워크 접근을 통제하는 보안 기술로 DRM의 고유 기술 요소가 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 23,
+      "subject": "소프트웨어 개발",
+      "questionText": "소프트웨어 형상관리(Configuration management)에 관한 설명으로 틀린 것은?",
+      "originalQuestionText": "소프트웨어 형상관리(Configuration management)에 관한 설명으 로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 소프트웨어에서 일어나는 수정이나 변경을 알아내고 제어하는 것을 의미한다.",
+          "normalized": "소프트웨어에서 일어나는 수정이나 변경을 알아내고 제어하는 것을 의미한다."
+        },
+        "B": {
+          "original": "② 소프트웨어 개발의 전체 비용을 줄이고, 개발 과정의 여러 방해 요인이 최소화되도록 보증하는 것을 목적으로 한다.",
+          "normalized": "소프트웨어 개발의 전체 비용을 줄이고, 개발 과정의 여러 방해 요인이 최소화되도록 보증하는 것을 목적으로 한다."
+        },
+        "C": {
+          "original": "③ 형상관리를 위하여 구성된 팀을 “chief programmer team”이 라고 한다.",
+          "normalized": "형상관리를 위하여 구성된 팀을 ‘chief programmer team’이라고 한다."
+        },
+        "D": {
+          "original": "④ 형상관리의 기능 중 하나는 버전 제어 기술이다.",
+          "normalized": "형상관리의 기능 중 하나는 버전 제어 기술이다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "30150c7dff15d4734d297f9f2f42a764b4c2c228be967faf8fa1ce2a1fc1ae7e",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "형상 관리는 변경 식별·통제, 상태 기록, 감사와 버전 제어로 소프트웨어 변경을 관리한다. 형상 관리 조직을 Chief Programmer Team이라고 부르지는 않으므로 C가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 24,
+      "subject": "소프트웨어 개발",
+      "questionText": "다음 트리를 후위 순회(Post Traversal)한 결과는?",
+      "originalQuestionText": "다음 트리를 후위 순회(Post Traversal)한 결과는?",
+      "choices": {
+        "A": {
+          "original": "① A B D C E F",
+          "normalized": "A B D C E F"
+        },
+        "B": {
+          "original": "② D B A E C F",
+          "normalized": "D B A E C F"
+        },
+        "C": {
+          "original": "③ A B C D E F",
+          "normalized": "A B C D E F"
+        },
+        "D": {
+          "original": "④ D B E F C A",
+          "normalized": "D B E F C A"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cc8f346d2b5ce56566ed7b8cc79237c110b6392333aa2cc6ce0bc480023076ce",
+      "assets": [
+        {
+          "type": "diagram",
+          "path": "assets/question-24-tree.png",
+          "pageNumber": 2,
+          "altText": "후위 순회 대상 트리"
+        }
+      ],
+      "hasImageReference": true,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "후위 순회는 왼쪽 서브트리, 오른쪽 서브트리, 루트 순으로 방문한다. 그림을 이 규칙으로 순회하면 D→B→E→F→C→A다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 25,
+      "subject": "소프트웨어 개발",
+      "questionText": "EAI(Enterprise Application Integration)의 구축 유형으로 옳지 않은 것은?",
+      "originalQuestionText": "EAI(Enterprise Application Integration)의 구축 유형으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① Tree",
+          "normalized": "Tree"
+        },
+        "B": {
+          "original": "② Hub & Spoke",
+          "normalized": "Hub & Spoke"
+        },
+        "C": {
+          "original": "③ Message Bus",
+          "normalized": "Message Bus"
+        },
+        "D": {
+          "original": "④ Point-to-Point",
+          "normalized": "Point-to-Point"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "3f4652b726efdbb6c3708c17680df2bb0252c2bbc11c2819d070614f0358ead6",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "EAI의 대표 구축 유형은 Point-to-Point, Hub & Spoke, Message Bus와 이들을 결합한 Hybrid다. Tree는 일반적인 EAI 구축 유형이 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 26,
+      "subject": "소프트웨어 개발",
+      "questionText": "소프트웨어 테스트에서 오류의 80%는 전체 모듈의 20% 내에서 발견된다는 법칙은?",
+      "originalQuestionText": "소프트웨어 테스트에서 오류의 80%는 전체 모듈의 20% 내에서 발견된다는 법칙은?",
+      "choices": {
+        "A": {
+          "original": "① Brooks의 법칙",
+          "normalized": "Brooks의 법칙"
+        },
+        "B": {
+          "original": "② Boehm의 법칙",
+          "normalized": "Boehm의 법칙"
+        },
+        "C": {
+          "original": "③ Pareto의 법칙",
+          "normalized": "Pareto의 법칙"
+        },
+        "D": {
+          "original": "④ Jackson의 법칙",
+          "normalized": "Jackson의 법칙"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "3dd81d43c115121ba97aa906710824057ab147b2bb790ec210102b287b58e3bd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "파레토 법칙은 결과의 약 80%가 원인의 약 20%에서 발생한다는 경험 법칙이다. 테스트에서는 결함 대부분이 일부 모듈에 집중된다는 의미로 적용한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 27,
+      "subject": "소프트웨어 개발",
+      "questionText": "다음 중 테스트 오라클에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "다음 중 테스트 오라클에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 샘플링 오라클 : 특정한 몇몇 테스트 케이스의 입력 값들에 대해서만 기대하는 결과를 제공하는 오라클이다.",
+          "normalized": "샘플링 오라클: 특정한 몇몇 테스트 케이스의 입력 값들에 대해서만 기대하는 결과를 제공하는 오라클이다."
+        },
+        "B": {
+          "original": "② 토탈 오라클 : 모든 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하는 오라클이다.",
+          "normalized": "토탈 오라클: 모든 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하는 오라클이다."
+        },
+        "C": {
+          "original": "③ 휴리스틱 오라클 : 특정 테스트 케이스의 입력 값에 대해 기대 하는 결과를 제공하고, 나머지 입력 값들에 대해서는 추정으로 처리하는 오라클이다.",
+          "normalized": "휴리스틱 오라클: 특정 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하고, 나머지 입력 값들에 대해서는 추정으로 처리하는 오라클이다."
+        },
+        "D": {
+          "original": "④ 일관성 검사 오라클 : 애플리케이션의 변경이 있을 경우 테스트 케이스의 수행 전과 후의 결과 값이 동일한지를 확인하는 오라 클이다.",
+          "normalized": "일관성 검사 오라클: 애플리케이션의 변경이 있을 경우 테스트 케이스의 수행 전과 후의 결과 값이 동일한지를 확인하는 오라클이다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cee5a925c61ae55476fc0bc1465f41e3d2a45743986d70771381fd961c7e35d6",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "모든 입력에 정확한 기대 결과를 제공하는 방식은 참 오라클(True Oracle)이다. 이를 토탈 오라클이라고 한 B는 시험에서 사용하는 오라클 유형 명칭과 맞지 않는다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 28,
+      "subject": "소프트웨어 개발",
+      "questionText": "IPSec(IP Security)에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "IPSec(IP Security)에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 암호화 수행시 일방향 암호화만 지원한다.",
+          "normalized": "암호화 수행 시 일방향 암호화만 지원한다."
+        },
+        "B": {
+          "original": "② ESP는 발신지 인증, 데이터 무결성, 기밀성 모두를 보장한다.",
+          "normalized": "ESP는 발신지 인증, 데이터 무결성, 기밀성 모두를 보장한다."
+        },
+        "C": {
+          "original": "③ 운영 모드는 Tunnel 모드와 Transport 모드로 분류된다.",
+          "normalized": "운영 모드는 Tunnel 모드와 Transport 모드로 분류된다."
+        },
+        "D": {
+          "original": "④ AH는 발신지 호스트를 인증하고, IP 패킷의 무결성을 보장한 다.",
+          "normalized": "AH는 발신지 호스트를 인증하고, IP 패킷의 무결성을 보장한다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 2,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "86332b044422cf2b49fafeb89a71434d0980b7f5a94e6eef4d1293c7ef1c0cd2",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "IPSec는 대칭키 암호 등을 사용해 암호화와 복호화를 모두 수행한다. ESP는 인증·무결성·기밀성을, AH는 인증과 무결성을 제공하므로 일방향 암호화만 지원한다는 A가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 29,
+      "subject": "소프트웨어 개발",
+      "questionText": "스택(STACK)의 응용 분야로 거리가 먼 것은?",
+      "originalQuestionText": "스택(STACK)의 응용 분야로 거리가 먼 것은?",
+      "choices": {
+        "A": {
+          "original": "① 인터럽트의 처리",
+          "normalized": "인터럽트의 처리"
+        },
+        "B": {
+          "original": "② 수식의 계산",
+          "normalized": "수식의 계산"
+        },
+        "C": {
+          "original": "③ 서브루틴의 복귀 번지 저장",
+          "normalized": "서브루틴의 복귀 번지 저장"
+        },
+        "D": {
+          "original": "④ 운영체제의 작업 스케줄링",
+          "normalized": "운영체제의 작업 스케줄링"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "2ffed10309858076a15644a0f65a820d46214b24c97a52c91c8f1657575005e8",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "스택은 인터럽트 처리, 수식 계산과 서브루틴 복귀 주소 저장에 활용된다. 운영체제 작업 스케줄링은 보통 큐나 우선순위 큐를 사용한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 30,
+      "subject": "소프트웨어 개발",
+      "questionText": "다음 자료에 대하여 선택(Selection) 정렬을 이용하여 오름차순으로 정렬하고자 한다. 1회전 수행 결과는?\n\n8, 3, 4, 9, 7",
+      "originalQuestionText": "다음 자료에 대하여 선택(Selection) 정렬을 이용하여 오름차순으로 정렬하고자 한다. 1회전 수행 결과는?  8, 3, 4, 9, 7",
+      "choices": {
+        "A": {
+          "original": "① 3, 4, 7, 8, 9",
+          "normalized": "3, 4, 7, 8, 9"
+        },
+        "B": {
+          "original": "② 3, 4, 7, 9, 8",
+          "normalized": "3, 4, 7, 9, 8"
+        },
+        "C": {
+          "original": "③ 3, 4, 8, 9, 7",
+          "normalized": "3, 4, 8, 9, 7"
+        },
+        "D": {
+          "original": "④ 3, 8, 4, 9, 7",
+          "normalized": "3, 8, 4, 9, 7"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "2444a929f739016072a328dca9d4a0a981da74756fe55e0b99aa723961f27cef",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "선택 정렬의 첫 회전은 전체 원소에서 최솟값 3을 찾아 첫 원소 8과 교환한다. 결과는 3, 8, 4, 9, 7이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 31,
+      "subject": "소프트웨어 개발",
+      "questionText": "해싱 함수(Hashing Function)의 종류가 아닌 것은?",
+      "originalQuestionText": "해싱 함수(Hashing Function)의 종류가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① 제곱법(Mid-Square)",
+          "normalized": "제곱법(Mid-Square)"
+        },
+        "B": {
+          "original": "② 숫자 분석법(Digit Analysis)",
+          "normalized": "숫자 분석법(Digit Analysis)"
+        },
+        "C": {
+          "original": "③ 개방 주소법(Open Addressing)",
+          "normalized": "개방 주소법(Open Addressing)"
+        },
+        "D": {
+          "original": "④ 제산법(Division)",
+          "normalized": "제산법(Division)"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "7878f4f909739607c518d094efb3898b4c1bdc8c498855ca2708d88dab8b4ab5",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "제곱법, 숫자 분석법, 제산법은 키로 해시 주소를 계산하는 해싱 함수다. 개방 주소법은 충돌이 발생했을 때 다른 빈 버킷을 찾는 충돌 해결 방법이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 32,
+      "subject": "소프트웨어 개발",
+      "questionText": "인터페이스 구현 검증 도구가 아닌 것은?",
+      "originalQuestionText": "인터페이스 구현 검증 도구가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① ESB",
+          "normalized": "ESB"
+        },
+        "B": {
+          "original": "② xUnit",
+          "normalized": "xUnit"
+        },
+        "C": {
+          "original": "③ STAF",
+          "normalized": "STAF"
+        },
+        "D": {
+          "original": "④ NTAF",
+          "normalized": "NTAF"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9c12c7fe30a05db03594f2e6bfa754a98b3baad80a23e9c9cd6f7c781e772701",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "xUnit, STAF, NTAF는 인터페이스 또는 테스트 자동화 검증에 활용된다. ESB는 시스템 간 메시지 전달과 연계를 담당하는 통합 미들웨어다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 33,
+      "subject": "소프트웨어 개발",
+      "questionText": "순서가 A, B, C, D로 정해진 입력 자료를 스택에 입력하였다가 출력할 때, 가능한 출력 순서의 결과가 아닌 것은?",
+      "originalQuestionText": "순서가 A, B, C, D로 정해진 입력 자료를 스택에 입력하였다가 출력할 때, 가능한 출력 순서의 결과가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① A, B, C, D",
+          "normalized": "A, B, C, D"
+        },
+        "B": {
+          "original": "② D, A, B, C",
+          "normalized": "D, A, B, C"
+        },
+        "C": {
+          "original": "③ A, B, D, C",
+          "normalized": "A, B, D, C"
+        },
+        "D": {
+          "original": "④ B, C, D, A",
+          "normalized": "B, C, D, A"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d51337cb6eabeb51f75ef60037b394afb2e0464ec3c56a410e34559d5725e438",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "D를 먼저 출력하려면 A, B, C, D를 모두 넣어야 하며, D 다음에는 스택 꼭대기의 C가 나와야 한다. 따라서 D 다음에 A가 나오는 D-A-B-C 순서는 만들 수 없다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 34,
+      "subject": "소프트웨어 개발",
+      "questionText": "다음 중 클린 코드 작성원칙으로 거리가 먼 것은?",
+      "originalQuestionText": "다음 중 클린 코드 작성원칙으로 거리가 먼 것은?",
+      "choices": {
+        "A": {
+          "original": "① 누구든지 쉽게 이해하는 코드 작성",
+          "normalized": "누구든지 쉽게 이해하는 코드 작성"
+        },
+        "B": {
+          "original": "② 중복이 최대화된 코드 작성",
+          "normalized": "중복이 최대화된 코드 작성"
+        },
+        "C": {
+          "original": "③ 다른 모듈에 미치는 영향 최소화",
+          "normalized": "다른 모듈에 미치는 영향 최소화"
+        },
+        "D": {
+          "original": "④ 단순, 명료한 코드 작성",
+          "normalized": "단순, 명료한 코드 작성"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "3a8f762d1e5b7d410d9656f713e931ad3d12898f17d800d9fafaaacc60e9212b",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "클린 코드는 읽기 쉽고 단순·명료하며 중복과 다른 모듈에 미치는 영향을 최소화해야 한다. 중복을 최대화한다는 B가 원칙과 반대다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 35,
+      "subject": "소프트웨어 개발",
+      "questionText": "소스 코드 품질 분석 도구 중 정적 분석 도구가 아닌 것은?",
+      "originalQuestionText": "소스 코드 품질 분석 도구 중 정적 분석 도구가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① pmd",
+          "normalized": "pmd"
+        },
+        "B": {
+          "original": "② checkstyle",
+          "normalized": "checkstyle"
+        },
+        "C": {
+          "original": "③ valance",
+          "normalized": "Valgrind"
+        },
+        "D": {
+          "original": "④ cppcheck",
+          "normalized": "cppcheck"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9919c7bf9dac5164cf42ef517cabeeea2e8c16bf38e1f25dcd71a8a092d21962",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": true,
+      "reviewReasons": [
+        "원본 PDF에는 'valance'로 인쇄되어 있으나 정적 분석 도구가 아닌 동적 분석 도구를 묻는 문맥에 맞춰 Valgrind로 정규화"
+      ],
+      "explanation": "PMD, Cppcheck, Checkstyle은 코드를 실행하지 않고 분석하는 정적 분석 도구다. Valgrind는 프로그램 실행 중 메모리 오류 등을 검사하는 동적 분석 도구다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 36,
+      "subject": "소프트웨어 개발",
+      "questionText": "알파, 베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?",
+      "originalQuestionText": "알파, 베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?",
+      "choices": {
+        "A": {
+          "original": "① 단위 테스트",
+          "normalized": "단위 테스트"
+        },
+        "B": {
+          "original": "② 인수 테스트",
+          "normalized": "인수 테스트"
+        },
+        "C": {
+          "original": "③ 통합 테스트",
+          "normalized": "통합 테스트"
+        },
+        "D": {
+          "original": "④ 시스템 테스트",
+          "normalized": "시스템 테스트"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "4aa12ee16b4f51b4eec7ee8a8069f4709cee9eeea166a938c173a2ee6d40d92c",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "알파 테스트와 베타 테스트는 실제 사용자 관점에서 제품의 수용 가능성을 확인하는 인수 테스트 단계와 가장 밀접하다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 37,
+      "subject": "소프트웨어 개발",
+      "questionText": "테스트 드라이버(Test Driver)에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "테스트 드라이버(Test Driver)에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 시험 대상 모듈을 호출하는 간이 소프트웨어이다.",
+          "normalized": "시험 대상 모듈을 호출하는 간이 소프트웨어이다."
+        },
+        "B": {
+          "original": "② 필요에 따라 매개 변수를 전달하고 모듈을 수행한 후의 결과를 보여줄 수 있다.",
+          "normalized": "필요에 따라 매개 변수를 전달하고 모듈을 수행한 후의 결과를 보여줄 수 있다."
+        },
+        "C": {
+          "original": "③ 상향식 통합 테스트에서 사용된다.",
+          "normalized": "상향식 통합 테스트에서 사용된다."
+        },
+        "D": {
+          "original": "④ 테스트 대상 모듈이 호출하는 하위 모듈의 역할을 한다.",
+          "normalized": "테스트 대상 모듈이 호출하는 하위 모듈의 역할을 한다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9c2a8d40ddabc60c601447475b87b886ecacff30d42ee19cbd5bb1163d57008b",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "드라이버는 상향식 통합에서 시험 대상 모듈을 호출하고 인자를 전달한 뒤 결과를 확인하는 임시 상위 모듈이다. 대상이 호출하는 하위 모듈을 대신하는 것은 스텁이므로 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 38,
+      "subject": "소프트웨어 개발",
+      "questionText": "소프트웨어 패키징에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "소프트웨어 패키징에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 패키징은 개발자 중심으로 진행한다.",
+          "normalized": "패키징은 개발자 중심으로 진행한다."
+        },
+        "B": {
+          "original": "② 신규 및 변경 개발소스를 식별하고, 이를 모듈화하여 상용제품 으로 패키징한다.",
+          "normalized": "신규 및 변경 개발 소스를 식별하고, 이를 모듈화하여 상용 제품으로 패키징한다."
+        },
+        "C": {
+          "original": "③ 고객의 편의성을 위해 매뉴얼 및 버전관리를 지속적으로 한다.",
+          "normalized": "고객의 편의성을 위해 매뉴얼 및 버전 관리를 지속적으로 한다."
+        },
+        "D": {
+          "original": "④ 범용 환경에서 사용이 가능하도록 일반적인 배포 형태로 패키 징이 진행된다.",
+          "normalized": "범용 환경에서 사용이 가능하도록 일반적인 배포 형태로 패키징이 진행된다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "6dcce3fe627efa8b6c3267f1272dfd033b7034e38a79fbf0ce12a83fba4b2d9b",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "패키징은 최종 사용자의 설치와 사용 편의를 중심으로 진행해야 한다. 개발자 중심으로 진행한다는 설명이 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 39,
+      "subject": "소프트웨어 개발",
+      "questionText": "연결 리스트(Linked List)에 대한 설명으로 거리가 먼 것은?",
+      "originalQuestionText": "연결 리스트(Linked List)에 대한 설명으로 거리가 먼 것은?",
+      "choices": {
+        "A": {
+          "original": "① 노드의 삽입이나 삭제가 쉽다.",
+          "normalized": "노드의 삽입이나 삭제가 쉽다."
+        },
+        "B": {
+          "original": "② 노드들이 포인터로 연결되어 검색이 빠르다.",
+          "normalized": "노드들이 포인터로 연결되어 검색이 빠르다."
+        },
+        "C": {
+          "original": "③ 연결을 해주는 포인터(Pointer)를 위한 추가 공간이 필요하다.",
+          "normalized": "연결을 해주는 포인터(Pointer)를 위한 추가 공간이 필요하다."
+        },
+        "D": {
+          "original": "④ 연결 리스트 중에서 중간 노드 연결이 끊어지면 그 다음 노드를 찾기 힘들다.",
+          "normalized": "연결 리스트 중에서 중간 노드 연결이 끊어지면 그 다음 노드를 찾기 힘들다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "7bb8dc30ea5b0078a88c696b8df52957f7a8cc36174d9e39d38e4842e642cd79",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "연결 리스트는 삽입·삭제가 쉽지만 원하는 위치에 직접 접근할 수 없어 검색은 순차적으로 해야 한다. 포인터 연결 때문에 검색이 빠르다는 B가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 40,
+      "subject": "소프트웨어 개발",
+      "questionText": "알고리즘 시간 복잡도 O(1)이 의미하는 것은?",
+      "originalQuestionText": "알고리즘 시간 복잡도 O(1)이 의미하는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 컴퓨터 처리가 불가",
+          "normalized": "컴퓨터 처리가 불가"
+        },
+        "B": {
+          "original": "② 알고리즘 입력 데이터 수가 한 개",
+          "normalized": "알고리즘 입력 데이터 수가 한 개"
+        },
+        "C": {
+          "original": "③ 알고리즘 수행시간이 입력 데이터 수와 관계 없이 일정",
+          "normalized": "알고리즘 수행시간이 입력 데이터 수와 관계 없이 일정"
+        },
+        "D": {
+          "original": "④ 알고리즘 길이가 입력 데이터보다 작음",
+          "normalized": "알고리즘 길이가 입력 데이터보다 작음"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "22817d523b559a83eb9d521d46a30b9c9850aa784cc9a46aad8873514ff46631",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "O(1)은 입력 데이터의 개수가 늘어도 알고리즘이 수행하는 핵심 연산 횟수와 실행 시간이 일정한 상수 시간 복잡도를 뜻한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 41,
+      "subject": "데이터베이스 구축",
+      "questionText": "데이터베이스 무결성에 관한 설명으로 옳은 것은?",
+      "originalQuestionText": "데이터베이스 무결성에 관한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 개체 무결성 규정은 한 릴레이션의 기본키를 구성하는 어떠한 속성값도 널(NULL) 값이나 중복값을 가질 수 없음을 규정하 는 것이다.",
+          "normalized": "개체 무결성 규정은 한 릴레이션의 기본키를 구성하는 어떠한 속성값도 널(NULL) 값이나 중복값을 가질 수 없음을 규정하는 것이다."
+        },
+        "B": {
+          "original": "② 참조 무결성 규정은 속성 값들이 사용자가 정의한 제약 조건에 만족해야 한다는 규정이다.",
+          "normalized": "참조 무결성 규정은 속성 값들이 사용자가 정의한 제약 조건에 만족해야 한다는 규정이다."
+        },
+        "C": {
+          "original": "③ 도메인 무결성 규정은 외래키 값은 Null이거나 참조 릴레이션 의 기본키 값과 동일해야 한다는 규정이다.",
+          "normalized": "도메인 무결성 규정은 외래키 값은 Null이거나 참조 릴레이션의 기본키 값과 동일해야 한다는 규정이다."
+        },
+        "D": {
+          "original": "④ 사용자 정의 무결성 규정은 주어진 튜플의 값이 그 튜플이 정의 된 도메인에 속한 값이어야 한다는 것을 규정하는 것이다.",
+          "normalized": "사용자 정의 무결성 규정은 주어진 튜플의 값이 그 튜플이 정의된 도메인에 속한 값이어야 한다는 것을 규정하는 것이다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "72715e801a6d3c0e48cf3559de5aed9f3e3fe8ba6e03dbddc9e9a14f950d32d8",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "개체 무결성은 기본키를 구성하는 속성이 NULL이나 중복 값을 가질 수 없도록 해 각 튜플을 유일하게 식별하게 한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 42,
+      "subject": "데이터베이스 구축",
+      "questionText": "트랜잭션의 상태를 보여주는 다음 그림을 보고 각 상태에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "트랜잭션의 상태를 보여주는 다음 그림을 보고 각 상태에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 활동 상태는 트랜잭션이 수행되기 시작하여 현재 실행 중인 상태를 의미한다.",
+          "normalized": "활동 상태는 트랜잭션이 수행되기 시작하여 현재 실행 중인 상태를 의미한다."
+        },
+        "B": {
+          "original": "② 완료는 트랜잭션이 성공적으로 종료되어 Commit 연산까지 수행한 상태를 의미한다.",
+          "normalized": "완료는 트랜잭션이 성공적으로 종료되어 Commit 연산까지 수행한 상태를 의미한다."
+        },
+        "C": {
+          "original": "③ 부분 완료는 트랜잭션의 일부 연산만이 완료되어 Commit된 상태를 의미한다.",
+          "normalized": "부분 완료는 트랜잭션의 일부 연산만이 완료되어 Commit된 상태를 의미한다."
+        },
+        "D": {
+          "original": "④ 철회는 트랜잭션이 수행하는 데 실패하여 Rollback 연산까지 수행한 상태를 의미한다.",
+          "normalized": "철회는 트랜잭션이 수행하는 데 실패하여 Rollback 연산까지 수행한 상태를 의미한다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "33a1e646a5239ca19394f1933434dca12d17b49bef7a344e4d43695c23a4f4e3",
+      "assets": [
+        {
+          "type": "diagram",
+          "path": "assets/question-42-transaction-state.png",
+          "pageNumber": 3,
+          "altText": "활동, 부분 완료, 실패, 완료, 철회로 이어지는 트랜잭션 상태도"
+        }
+      ],
+      "hasImageReference": true,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "부분 완료는 마지막 연산까지 실행됐지만 결과가 아직 안정적으로 반영되기 전의 상태다. 일부 연산만 완료되어 Commit된 상태라는 C가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 43,
+      "subject": "데이터베이스 구축",
+      "questionText": "무결성을 보장하기 위해 트랜잭션이 가져야 할 특성에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "무결성을 보장하기 위해 트랜잭션이 가져야 할 특성에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 트랜잭션 내의 모든 명령은 반드시 완벽히 수행되어야 하며, 모두가 완벽히 수행되지 않고 어느 하나라도 오류가 발생하면 트랜잭션 전부가 취소되어야 한다.",
+          "normalized": "트랜잭션 내의 모든 명령은 반드시 완벽히 수행되어야 하며, 모두가 완벽히 수행되지 않고 어느 하나라도 오류가 발생하면 트랜잭션 전부가 취소되어야 한다."
+        },
+        "B": {
+          "original": "② 트랜잭션의 수행과 관계 없이 데이터베이스가 가지고 있는 고 정 요소는 일관되어야 한다.",
+          "normalized": "트랜잭션의 수행과 관계없이 데이터베이스가 가지고 있는 고정 요소는 일관되어야 한다."
+        },
+        "C": {
+          "original": "③ 둘 이상의 트랜잭션이 동시에 병행 실행되는 경우 어느 하나의 트랜잭션 실행 중에 다른 트랜잭션의 연산이 끼어들 수 없다.",
+          "normalized": "둘 이상의 트랜잭션이 동시에 병행 실행되는 경우 어느 하나의 트랜잭션 실행 중에 다른 트랜잭션의 연산이 끼어들 수 없다."
+        },
+        "D": {
+          "original": "④ Commit과 Rollback 명령어에 의해 보장받는 트랜잭션의 특성 은 일관성이다.",
+          "normalized": "Commit과 Rollback 명령어에 의해 보장받는 트랜잭션의 특성은 일관성이다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 3,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "8f435cb8cdcef4831e835ef1b6fa3f87fd1208bf7dad15d349555c6e47e249bd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "COMMIT과 ROLLBACK으로 트랜잭션의 변경이 전부 반영되거나 전부 취소되도록 보장하는 성질은 원자성이다. 일관성이라고 한 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 44,
+      "subject": "데이터베이스 구축",
+      "questionText": "분산 데이터베이스의 특징에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "분산 데이터베이스의 특징에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 지역 서버의 고유 데이터에 대한 작업은 중앙 서버의 통제 없이 자유롭게 수행할 수 있다.",
+          "normalized": "지역 서버의 고유 데이터에 대한 작업은 중앙 서버의 통제 없이 자유롭게 수행할 수 있다."
+        },
+        "B": {
+          "original": "② 새로운 지역 서버를 추가하거나 장비를 추가하는 등의 작업이 용이하다.",
+          "normalized": "새로운 지역 서버를 추가하거나 장비를 추가하는 등의 작업이 용이하다."
+        },
+        "C": {
+          "original": "③ 위치 투명성, 중복 투명성, 병행 투명성, 장애 투명성을 목표로 한다.",
+          "normalized": "위치 투명성, 중복 투명성, 병행 투명성, 장애 투명성을 목표로 한다."
+        },
+        "D": {
+          "original": "④ 데이터베이스 설계 및 소프트웨어 개발이 쉽고, 전반적인 시스 템의 성능이 향상된다.",
+          "normalized": "데이터베이스 설계 및 소프트웨어 개발이 쉽고, 전반적인 시스템의 성능이 향상된다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "ec8ededb1c298b0f845902e4200785e7ab4428dc1c3d68386c739810b3d29cf4",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "분산 데이터베이스는 확장성과 지역 자율성, 여러 투명성을 제공하지만 분산 제어와 통신 때문에 설계·개발이 복잡하고 항상 성능이 향상되는 것도 아니다. 따라서 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 45,
+      "subject": "데이터베이스 구축",
+      "questionText": "파티셔닝 방식 중 ‘월별, 분기별’과 같이 지정한 열의 값을 기준으로 범위를 지정하여 분할하는 방식은?",
+      "originalQuestionText": "파티셔닝 방식 중 ‘월별, 분기별’과 같이 지정한 열의 값을 기준으로 범위를 지정하여 분할하는 방식은?",
+      "choices": {
+        "A": {
+          "original": "① Range Partitioning",
+          "normalized": "Range Partitioning"
+        },
+        "B": {
+          "original": "② Hash Partitioning",
+          "normalized": "Hash Partitioning"
+        },
+        "C": {
+          "original": "③ Composite Partitioning",
+          "normalized": "Composite Partitioning"
+        },
+        "D": {
+          "original": "④ List Partitioning",
+          "normalized": "List Partitioning"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "b3da094646ea2394b30ef66d58d2d019fe7a676524918a6f8275689da75f5fe9",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "범위 분할은 날짜, 월, 분기나 수치 구간처럼 지정한 열의 값 범위를 기준으로 각 행을 파티션에 배치한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 46,
+      "subject": "데이터베이스 구축",
+      "questionText": "데이터베이스에는 관계형, 계층형, 네트워크형 등 다양한 종류가 있는데 이들을 구분하는 기준은?",
+      "originalQuestionText": "데이터베이스에는 관계형, 계층형, 네트워크형 등 다양한 종류가 있는데 이들을 구분하는 기준은?",
+      "choices": {
+        "A": {
+          "original": "① 개체(Object)",
+          "normalized": "개체(Object)"
+        },
+        "B": {
+          "original": "② 관계(Relationship)",
+          "normalized": "관계(Relationship)"
+        },
+        "C": {
+          "original": "③ 속성(Attribute)",
+          "normalized": "속성(Attribute)"
+        },
+        "D": {
+          "original": "④ 제약 조건(Constraint)",
+          "normalized": "제약 조건(Constraint)"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "b8107d68d43460fa729ed03e9693572e0437f3d2883638dac71fa2f69679e55e",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "데이터베이스 모델은 데이터 사이의 관계를 표현하는 방식에 따라 관계형, 계층형, 네트워크형 등으로 구분한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 47,
+      "subject": "데이터베이스 구축",
+      "questionText": "다음 SQL문의 실행 결과를 가장 올바르게 설명한 것은?\n\nALTER TABLE 학생 DROP 학년 CASCADE;",
+      "originalQuestionText": "다음 SQL문의 실행 결과를 가장 올바르게 설명한 것은?  ALTER TABLE 학생 DROP 학년 CASCADE;",
+      "choices": {
+        "A": {
+          "original": "① 학년 테이블에서 학생 속성을 제거하되 학생 속성을 참조하는 다른 테이블의 속성도 함께 제거한다.",
+          "normalized": "학년 테이블에서 학생 속성을 제거하되 학생 속성을 참조하는 다른 테이블의 속성도 함께 제거한다."
+        },
+        "B": {
+          "original": "② 학년 테이블에서 학생 속성을 제거하되 학생 속성을 참조하는 다른 테이블의 속성이 있는 경우 제거를 중단한다.",
+          "normalized": "학년 테이블에서 학생 속성을 제거하되 학생 속성을 참조하는 다른 테이블의 속성이 있는 경우 제거를 중단한다."
+        },
+        "C": {
+          "original": "③ 학생 테이블에서 학년 속성을 제거하되 학년 속성을 참조하는 다른 테이블의 속성도 함께 제거한다.",
+          "normalized": "학생 테이블에서 학년 속성을 제거하되 학년 속성을 참조하는 다른 테이블의 속성도 함께 제거한다."
+        },
+        "D": {
+          "original": "④ 학생 테이블에서 학년 속성을 제거하되 학년 속성을 참조하는 다른 테이블의 속성이 있는 경우 제거를 중단한다.",
+          "normalized": "학생 테이블에서 학년 속성을 제거하되 학년 속성을 참조하는 다른 테이블의 속성이 있는 경우 제거를 중단한다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "8dec252bb41b9230bd8db048c754a53d9c6369fd9d97a331a7a4b14f7eb01f71",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "ALTER TABLE 학생 DROP 학년 CASCADE는 학생 테이블에서 학년 열을 제거하고 그 열에 의존하는 제약이나 관련 객체도 함께 제거한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 48,
+      "subject": "데이터베이스 구축",
+      "questionText": "물리적 데이터베이스를 설계하는 전 단계로서, 데이터 모델링이라 불리는 데이터베이스 설계 단계는?",
+      "originalQuestionText": "물리적 데이터베이스를 설계하는 전 단계로서, 데이터 모델링이라 불리는 데이터베이스 설계 단계는?",
+      "choices": {
+        "A": {
+          "original": "① 개념적 데이터베이스 설계",
+          "normalized": "개념적 데이터베이스 설계"
+        },
+        "B": {
+          "original": "② 논리적 데이터베이스 설계",
+          "normalized": "논리적 데이터베이스 설계"
+        },
+        "C": {
+          "original": "③ 정보 모델링",
+          "normalized": "정보 모델링"
+        },
+        "D": {
+          "original": "④ 데이터베이스 구현",
+          "normalized": "데이터베이스 구현"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "29f3dd8426838052fce518de605d25355d6b99d6d51a30d4a8dac2a1dfb49684",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "논리적 데이터베이스 설계는 개념 모델을 관계형 스키마 등 논리 데이터 모델로 변환·정규화하는 데이터 모델링 단계이며, 다음 단계가 물리적 설계다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 49,
+      "subject": "데이터베이스 구축",
+      "questionText": "정규화에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "정규화에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 정규형에는 제1정규형, 제2정규형, 제3정규형, BCNF형, 제4 정규형 등이 있다.",
+          "normalized": "정규형에는 제1정규형, 제2정규형, 제3정규형, BCNF형, 제4정규형 등이 있다."
+        },
+        "B": {
+          "original": "② 릴레이션에 속한 모든 도메인이 원자값만으로 되어 있는 정규 형은 제1정규형이다.",
+          "normalized": "릴레이션에 속한 모든 도메인이 원자값만으로 되어 있는 정규형은 제1정규형이다."
+        },
+        "C": {
+          "original": "③ 제1정규형이 제2정규형이 되기 위해서는 기본키가 아닌 모든 속성이 기본키에 대하여 완전 함수적 종속을 만족해야 한다.",
+          "normalized": "제1정규형이 제2정규형이 되기 위해서는 기본키가 아닌 모든 속성이 기본키에 대하여 완전 함수적 종속을 만족해야 한다."
+        },
+        "D": {
+          "original": "④ 결정자가 모두 후보키인 정규형은 제3정규형이다.",
+          "normalized": "결정자가 모두 후보키인 정규형은 제3정규형이다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "b90e28dfebd566de30e8dee0905b3d85760219a697addbdf053573d88f73618a",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "모든 결정자가 후보키여야 하는 정규형은 BCNF다. 제3정규형은 키가 아닌 속성의 이행 종속을 제거하는 조건이므로 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 50,
+      "subject": "데이터베이스 구축",
+      "questionText": "개체-관계(E-R) 모델에 대한 설명으로 잘못된 것은?",
+      "originalQuestionText": "개체-관계(E-R) 모델에 대한 설명으로 잘못된 것은?",
+      "choices": {
+        "A": {
+          "original": "① 특정 DBMS를 고려하여 제작하지 않는다.",
+          "normalized": "특정 DBMS를 고려하여 제작하지 않는다."
+        },
+        "B": {
+          "original": "② 개체는 마름모, 속성은 사각형을 이용하여 표현한다.",
+          "normalized": "개체는 마름모, 속성은 사각형을 이용하여 표현한다."
+        },
+        "C": {
+          "original": "③ 개념적 데이터베이스 단계에서 제작된다.",
+          "normalized": "개념적 데이터베이스 단계에서 제작된다."
+        },
+        "D": {
+          "original": "④ E-R 모델의 기본적인 아이디어를 시각적으로 가장 잘 나타낸 것이 E-R 다이어그램이다.",
+          "normalized": "E-R 모델의 기본적인 아이디어를 시각적으로 가장 잘 나타낸 것이 E-R 다이어그램이다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "ce10ef29275300e15790e9e5dc56b1ac569ecf874b4dcfe78e197d313384e923",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "E-R 다이어그램에서 개체는 직사각형, 관계는 마름모, 속성은 타원으로 표현한다. 개체와 속성의 도형을 뒤바꾼 B가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 51,
+      "subject": "데이터베이스 구축",
+      "questionText": "관계형 데이터베이스의 구성 요소에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "관계형 데이터베이스의 구성 요소에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 속성을 구성하는 값에는 동일한 값이 있을 수 있다.",
+          "normalized": "속성을 구성하는 값에는 동일한 값이 있을 수 있다."
+        },
+        "B": {
+          "original": "② 한 릴레이션에 포함된 튜플은 모두 상이하다.",
+          "normalized": "한 릴레이션에 포함된 튜플은 모두 상이하다."
+        },
+        "C": {
+          "original": "③ 한 릴레이션에는 동일한 이름의 속성이 있을 수 있다.",
+          "normalized": "한 릴레이션에는 동일한 이름의 속성이 있을 수 있다."
+        },
+        "D": {
+          "original": "④ 한 릴레이션을 구성하는 속성 사이에는 순서가 없다.",
+          "normalized": "한 릴레이션을 구성하는 속성 사이에는 순서가 없다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "139e156a4f1f33c6cd07a02885270d2c53799d92e288d476b1f31dc846e491d7",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "한 릴레이션 안의 속성 이름은 각각 유일해야 한다. 동일한 속성 이름을 둘 수 있다는 C가 틀렸으며, 속성값 자체는 서로 같을 수 있다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 52,
+      "subject": "데이터베이스 구축",
+      "questionText": "SQL의 명령어를 DCL, DML, DDL로 구분할 경우, 다음 중 성격이 다른 하나는?",
+      "originalQuestionText": "SQL의 명령어를 DCL, DML, DDL로 구분할 경우, 다음 중 성격이 다른 하나는?",
+      "choices": {
+        "A": {
+          "original": "① CREATE",
+          "normalized": "CREATE"
+        },
+        "B": {
+          "original": "② SELECT",
+          "normalized": "SELECT"
+        },
+        "C": {
+          "original": "③ ALTER",
+          "normalized": "ALTER"
+        },
+        "D": {
+          "original": "④ DROP",
+          "normalized": "DROP"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "56df07b2f4c12a29a5b7e01645e7fb17db45b79f25f33eeb44d2bca671d4ddaa",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "CREATE, ALTER, DROP은 데이터 정의어인 DDL이고 SELECT는 데이터를 조회하는 DML이다. 따라서 성격이 다른 것은 SELECT다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 53,
+      "subject": "데이터베이스 구축",
+      "questionText": "키는 개체 집합에서 고유하게 개체를 식별할 수 있는 속성이다. 데이터베이스에서 사용되는 키의 종류에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "키는 개체 집합에서 고유하게 개체를 식별할 수 있는 속성이다. 데이터베이스에서 사용되는 키의 종류에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 후보키는 개체들을 고유하게 식별할 수 있는 속성이다.",
+          "normalized": "후보키는 개체들을 고유하게 식별할 수 있는 속성이다."
+        },
+        "B": {
+          "original": "② 슈퍼키는 한 개 이상의 속성들의 집합으로 구성된 키이다.",
+          "normalized": "슈퍼키는 한 개 이상의 속성들의 집합으로 구성된 키이다."
+        },
+        "C": {
+          "original": "③ 외래키는 다른 테이블의 기본키로 사용되는 속성이다.",
+          "normalized": "외래키는 다른 테이블의 기본키로 사용되는 속성이다."
+        },
+        "D": {
+          "original": "④ 대체키는 슈퍼키 중에서 기본키를 제외한 나머지 키를 의미한다.",
+          "normalized": "대체키는 슈퍼키 중에서 기본키를 제외한 나머지 키를 의미한다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "46c1b4c40c96cf84ad120f88db79b1457387d00289069e3e78cfd1f9ba3b5544",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "대체키는 후보키 중 기본키로 선택되지 않은 나머지 후보키다. 슈퍼키 전체에서 기본키만 제외한 것이라는 D는 불필요한 속성이 포함된 슈퍼키까지 포괄하므로 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 54,
+      "subject": "데이터베이스 구축",
+      "questionText": "SQL의 TRUNCATE 명령어에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "SQL의 TRUNCATE 명령어에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① DELETE와 같이 테이블의 모든 데이터를 삭제한다.",
+          "normalized": "DELETE와 같이 테이블의 모든 데이터를 삭제한다."
+        },
+        "B": {
+          "original": "② DROP과 달리 테이블 스키마는 제거되지 않고 유지된다.",
+          "normalized": "DROP과 달리 테이블 스키마는 제거되지 않고 유지된다."
+        },
+        "C": {
+          "original": "③ DELETE에 비해 빠르게 데이터를 제거하는 것이 가능하다.",
+          "normalized": "DELETE에 비해 빠르게 데이터를 제거하는 것이 가능하다."
+        },
+        "D": {
+          "original": "④ DELETE와 동일하게 ROLLBACK 명령어로 삭제된 데이터를 되살릴 수 있다.",
+          "normalized": "DELETE와 동일하게 ROLLBACK 명령어로 삭제된 데이터를 되살릴 수 있다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "97aa0f3967fa100e815eb204baeb9742584ac62386fb601b449c14a4010c4694",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "TRUNCATE는 테이블 구조를 남기고 모든 행을 빠르게 제거하는 DDL로 시험 문맥에서는 자동 커밋되어 일반적인 ROLLBACK으로 복구할 수 없다. DELETE와 동일하게 되살릴 수 있다는 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 55,
+      "subject": "데이터베이스 구축",
+      "questionText": "데이터베이스의 병행 제어(Concurrency Control)에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "데이터베이스의 병행 제어(Concurrency Control)에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 여러 사용자가 데이터베이스를 동시에 접근하여 데이터를 처 리하기 위함이다.",
+          "normalized": "여러 사용자가 데이터베이스에 동시에 접근하여 데이터를 처리하기 위함이다."
+        },
+        "B": {
+          "original": "② 처리 결과의 정확성 유지를 위해 데이터를 잠그거나 여는 등의 제어가 필요하다.",
+          "normalized": "처리 결과의 정확성 유지를 위해 데이터를 잠그거나 여는 등의 제어가 필요하다."
+        },
+        "C": {
+          "original": "③ 로킹 단위가 크면 병행 제어 기법이 복잡해진다.",
+          "normalized": "로킹 단위가 크면 병행 제어 기법이 복잡해진다."
+        },
+        "D": {
+          "original": "④ 로킹 단위가 크면 병행성 수준이 낮아진다.",
+          "normalized": "로킹 단위가 크면 병행성 수준이 낮아진다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "6ef983a7f07e58e2eda31343e22b2f6cb6097781f4e46cefc7b327af5e3bc64a",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "로킹 단위가 크면 관리할 잠금 수가 줄어 제어는 단순해지지만 동시에 접근할 수 있는 범위가 줄어 병행성이 낮아진다. 제어가 복잡해진다는 C가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 56,
+      "subject": "데이터베이스 구축",
+      "questionText": "시스템 카탈로그에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "시스템 카탈로그에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 시스템 자체에 관련 있는 다양한 객체에 관한 정보를 포함하는 시스템 데이터베이스이다.",
+          "normalized": "시스템 자체에 관련 있는 다양한 객체에 관한 정보를 포함하는 시스템 데이터베이스이다."
+        },
+        "B": {
+          "original": "② 데이터 사전이라고도 한다.",
+          "normalized": "데이터 사전이라고도 한다."
+        },
+        "C": {
+          "original": "③ 기본 테이블, 뷰, 인덱스, 패키지, 접근 권한 등의 정보를 저장 한다.",
+          "normalized": "기본 테이블, 뷰, 인덱스, 패키지, 접근 권한 등의 정보를 저장한다."
+        },
+        "D": {
+          "original": "④ 시스템을 위한 정보를 포함하는 시스템 데이터베이스이므로 일반 사용자는 SQL을 이용하여 내용을 검색해 볼 수 없다.",
+          "normalized": "시스템을 위한 정보를 포함하는 시스템 데이터베이스이므로 일반 사용자는 SQL을 이용하여 내용을 검색해 볼 수 없다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cf2d759e2a162a2d231c2ff3d519bb49a7bbea45bd0e335e7e75bf1f254cca38",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "시스템 카탈로그는 DBMS가 관리하지만 일반 사용자도 권한 범위 안에서 SQL로 메타데이터를 조회할 수 있다. 내용을 검색할 수 없다는 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 57,
+      "subject": "데이터베이스 구축",
+      "questionText": "트리거(Trigger)에 대한 설명으로 옳은 것은?",
+      "originalQuestionText": "트리거(Trigger)에 대한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 시스템에 어떤 일이 발생한 것을 말한다.",
+          "normalized": "시스템에 어떤 일이 발생한 것을 말한다."
+        },
+        "B": {
+          "original": "② 이벤트가 발생할 때마다 관련 작업이 자동으로 수행되는 절차 형 SQL이다.",
+          "normalized": "이벤트가 발생할 때마다 관련 작업이 자동으로 수행되는 절차형 SQL이다."
+        },
+        "C": {
+          "original": "③ 특정 기능을 수행하는 일종의 트랜잭션 언어로, 호출을 통해 실행되어 미리 저장해 놓은 SQL 작업을 수행한다.",
+          "normalized": "특정 기능을 수행하는 일종의 트랜잭션 언어로, 호출을 통해 실행되어 미리 저장해 놓은 SQL 작업을 수행한다."
+        },
+        "D": {
+          "original": "④ DBMS에 내장되어 작성된 SQL이 효율적으로 수행되도록 최 적의 경로를 찾아 주는 모듈이다.",
+          "normalized": "DBMS에 내장되어 작성된 SQL이 효율적으로 수행되도록 최적의 경로를 찾아 주는 모듈이다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "a4db874e16f904e0193242c533eef698cea394a20cfe131947a14e01c60f49ce",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": true,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "트리거는 INSERT, UPDATE, DELETE 같은 지정 이벤트가 발생할 때 DBMS가 관련 작업을 자동으로 실행하는 절차형 SQL 객체다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 58,
+      "subject": "데이터베이스 구축",
+      "questionText": "관계 대수와 관계 해석에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "관계 대수와 관계 해석에 대한 설명으로 옳지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 관계 대수는 원래 수학의 프레디킷 해석에 기반을 두고 있다.",
+          "normalized": "관계 대수는 원래 수학의 프레디킷 해석에 기반을 두고 있다."
+        },
+        "B": {
+          "original": "② 관계 대수로 표현한 식은 관계 해석으로 표현할 수 있다.",
+          "normalized": "관계 대수로 표현한 식은 관계 해석으로 표현할 수 있다."
+        },
+        "C": {
+          "original": "③ 관계 해석은 관계 데이터의 연산을 표현하는 방법이다.",
+          "normalized": "관계 해석은 관계 데이터의 연산을 표현하는 방법이다."
+        },
+        "D": {
+          "original": "④ 관계 해석은 원하는 정보가 무엇이라는 것만 정의하는 비절차 적인 특징을 가지고 있다.",
+          "normalized": "관계 해석은 원하는 정보가 무엇이라는 것만 정의하는 비절차적인 특징을 가지고 있다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 4,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "334ff7bc5c63bf362f2180f7e7382914484f3c67176223cde524f0f09e749bfd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "관계 해석은 술어 해석에 기반한 비절차적 표현이고 관계 대수는 집합 연산에 기반한 절차적 언어다. 관계 대수가 술어 해석에 기반한다는 A가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 59,
+      "subject": "데이터베이스 구축",
+      "questionText": "정보시스템과 관련한 다음 설명에 해당하는 것은?\n\n• 각 시스템 간에 공유 디스크를 중심으로 클러스터링으로 엮어 다수의 시스템을 동시에 연결할 수 있다.\n• 조직, 기업의 기간 업무 서버 안정성을 높이기 위해 사용될 수 있다.\n• 여러 가지 방식으로 구현되며 2개의 서버를 연결하는 것으로 2개의 시스템이 각각 업무를 수행하도록 구현하는 방식이 널리 사용된다.",
+      "originalQuestionText": "정보시스템과 관련한 다음 설명에 해당하는 것은?  ㆍ각 시스템 간에 공유 디스크를 중심으로 클러스터링으 로 엮어 다수의 시스템을 동시에 연결할 수 있다. ㆍ조직,   기업의   기간   업무   서버   안정성을   높이기   위해 사용될 수 있다. ㆍ여러 가지 방식으로 구현되며 2개의 서버를 연결하는 것으로 2개의 시스템이 각각 업무를 수행하도록 구현 하는 방식이 널리 사용된다.",
+      "choices": {
+        "A": {
+          "original": "① 고가용성 솔루션(HACMP)",
+          "normalized": "고가용성 솔루션(HACMP)"
+        },
+        "B": {
+          "original": "② 점대점 연결 방식(Point-to-Point Mode)",
+          "normalized": "점대점 연결 방식(Point-to-Point Mode)"
+        },
+        "C": {
+          "original": "③ 스턱스넷(Stuxnet)",
+          "normalized": "스턱스넷(Stuxnet)"
+        },
+        "D": {
+          "original": "④ 루팅(Rooting)",
+          "normalized": "루팅(Rooting)"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "6ea03a11002d90943e496693f553f5575f23519808c2037495982eefa660b0eb",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "HACMP 같은 고가용성 솔루션은 여러 서버를 클러스터로 묶고 공유 디스크와 장애 전환을 이용해 기간 업무의 중단을 최소화한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 60,
+      "subject": "데이터베이스 구축",
+      "questionText": "데이터베이스에 영향을 주는 생성, 읽기, 갱신, 삭제 연산으로 프로세스와 테이블 간에 매트릭스를 만들어서 트랜잭션을 분석하는 것은?",
+      "originalQuestionText": "데이터베이스에 영향을 주는 생성, 읽기, 갱신, 삭제 연산으로 프로세 스와 테이블 간에 매트릭스를 만들어서 트랜잭션을 분석하는 것은?",
+      "choices": {
+        "A": {
+          "original": "① CASE 분석",
+          "normalized": "CASE 분석"
+        },
+        "B": {
+          "original": "② 일치 분석",
+          "normalized": "일치 분석"
+        },
+        "C": {
+          "original": "③ CRUD 분석",
+          "normalized": "CRUD 분석"
+        },
+        "D": {
+          "original": "④ 연관성 분석",
+          "normalized": "연관성 분석"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "09a0fae34410b107decaadb9b76124676b859fa47e82f12ac6cfbc1e37ae0215",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "CRUD 분석은 프로세스와 데이터 엔티티 또는 테이블 사이의 생성(Create), 조회(Read), 수정(Update), 삭제(Delete) 관계를 행렬로 분석한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 61,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "OSI 7계층 중 다음 설명에 해당하는 계층은?\n\n• 두 응용 프로세스 간의 통신에 대한 제어 구조를 제공한다.\n• 연결의 생성, 관리, 종료를 위해 토큰을 사용한다.",
+      "originalQuestionText": "OSI 7계층 중 다음 설명에 해당하는 계층은?  ㆍ두 응용 프로세스 간의 통신에 대한 제어 구조를 제공 한다. ㆍ연결의 생성, 관리, 종료를 위해 토큰을 사용한다.",
+      "choices": {
+        "A": {
+          "original": "① 데이터링크 계층",
+          "normalized": "데이터 링크 계층"
+        },
+        "B": {
+          "original": "② 네트워크 계층",
+          "normalized": "네트워크 계층"
+        },
+        "C": {
+          "original": "③ 세션 계층",
+          "normalized": "세션 계층"
+        },
+        "D": {
+          "original": "④ 표현 계층",
+          "normalized": "표현 계층"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "a3a510f99643c5dc4c0a9590fa4f63628361e0b8ffe868417d4de5e7fcc7bc14",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "세션 계층은 응용 프로세스 사이의 대화 연결을 설정·관리·종료하고 토큰과 동기점을 이용해 통신을 제어한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 62,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 C 언어 프로그램의 결과로 옳은 것은?\n\n#include <stdio.h>\n\nmain() {\n    int a = 3, b = 4, c = 5;\n    int r1, r2, r3;\n    r1 = a < 4 && b <= 4;\n    r2 = a > 3 || b <= 5;\n    r3 = !c;\n    printf(\"%d\", r1 - r2 + r3);\n}",
+      "originalQuestionText": "다음 C언어 프로그램의 결과로 옳은 것은?  #include <stdio.h> main() { int a = 3, b = 4, c = 5; int r1, r2, r3; r1 = a < 4 && b <= 4; r2 = a > 3 || b <= 5; r3 = !c; printf(\"%d\", r1 - r2 + r3); }",
+      "choices": {
+        "A": {
+          "original": "① 0",
+          "normalized": "0"
+        },
+        "B": {
+          "original": "② 1",
+          "normalized": "1"
+        },
+        "C": {
+          "original": "③ 2",
+          "normalized": "2"
+        },
+        "D": {
+          "original": "④ 3",
+          "normalized": "3"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d305e0c5d2d1ce4f7963f395b6910bad9684fa07996c379acef455473ae96e5e",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": true,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "a<4와 b<=4가 모두 참이므로 r1=1, b<=5가 참이므로 r2=1, c가 0이 아니어서 r3=0이다. r1-r2+r3은 0이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 63,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 C 언어 프로그램 실행 후, 'c'를 입력하였을 때 출력 결과는?\n\n#include <stdio.h>\n\nmain() {\n    char ch;\n    scanf(\"%c\", &ch);\n    switch (ch) {\n        case 'a':\n            printf(\"one \");\n        case 'b':\n            printf(\"two \");\n        case 'c':\n            printf(\"three \");\n            break;\n        case 'd':\n            printf(\"four \");\n            break;\n    }\n}",
+      "originalQuestionText": "다음 C언어 프로그램 실행 후, ‘c’를 입력하였을 때 출력 결과는?  #include <stdio.h> main() { char ch; scanf(\"%c\", &ch); switch (ch) { case 'a': printf(\"one \"); case 'b': printf(\"two \"); case 'c': printf(\"three \"); break; case 'd': printf(\"four \"); break; } }",
+      "choices": {
+        "A": {
+          "original": "① one",
+          "normalized": "one"
+        },
+        "B": {
+          "original": "② one two",
+          "normalized": "one two"
+        },
+        "C": {
+          "original": "③ three",
+          "normalized": "three"
+        },
+        "D": {
+          "original": "④ one two three four",
+          "normalized": "one two three four"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "46d42a15229304603ccad5fd2e8a94c78ff32321c06f34afcd8a47d67bf8c35e",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": true,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "입력값 c는 case 'c'로 바로 분기해 three를 출력하고 break로 switch를 빠져나온다. 앞의 case a와 b는 실행되지 않는다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 64,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 C 언어 프로그램에서 밑줄 친 부분(!a && !b)과 동일한 의미를 가지는 것은 무엇인가?\n\n#include <stdio.h>\n\nmain() {\n    int a, b;\n    for (a = 0; a < 2; a++)\n        for (b = 0; b < 2; b++)\n            printf(\"%d\", !a && !b);\n}",
+      "originalQuestionText": "다음 C언어 프로그램에서 밑줄 친 부분과 동일한 의미를 가지는 것은 어떤것인가?  #include <stdio.h> main() { int a, b; for (a = 0; a < 2; a++) for (b = 0; b < 2; b++) printf(\"%d\", !a && !b); }",
+      "choices": {
+        "A": {
+          "original": "① !a || !b",
+          "normalized": "!a || !b"
+        },
+        "B": {
+          "original": "② !(a || b)",
+          "normalized": "!(a || b)"
+        },
+        "C": {
+          "original": "③ a && b",
+          "normalized": "a && b"
+        },
+        "D": {
+          "original": "④ a || b",
+          "normalized": "a || b"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "2f1dad73c6b0463e7b4c4b0a3f7cee2854b39a3ba6e085aebe5b759198aef558",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": true,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "드모르간 법칙에 따라 !a && !b는 !(a || b)와 논리적으로 같다. 둘 다 a와 b가 모두 거짓일 때만 참이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 65,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 Python 코드에서 '53t44'를 입력했을 때 출력 결과는?\n\na, b = map(int, input().split('t'))\nprint(a, b)",
+      "originalQuestionText": "다음 파이썬 코드에서 ‘53t44’를 입력했을 때 출력 결과는?  a, b = map(int, input().split(\"t\")); print(a, b)",
+      "choices": {
+        "A": {
+          "original": "① 53 t 44",
+          "normalized": "53 t 44"
+        },
+        "B": {
+          "original": "② 53t44",
+          "normalized": "53t44"
+        },
+        "C": {
+          "original": "③ 53 44",
+          "normalized": "53 44"
+        },
+        "D": {
+          "original": "④ 53, 44",
+          "normalized": "53, 44"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "ac0229795afe548efa20635ce45ea3a9805813861be3ce01c1ed670137c81673",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": true,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "split('t')는 입력을 '53'과 '44'로 나누고 map(int, ...)가 두 값을 정수로 변환한다. print(a, b)는 기본 구분자인 공백을 넣어 53 44를 출력한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 66,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 중 HRN에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "다음 중 HRN에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 대기시간과 서비스시간을 이용하는 방법이다.",
+          "normalized": "대기시간과 서비스시간을 이용하는 방법이다."
+        },
+        "B": {
+          "original": "② 대기 시간이 긴 프로세스일 경우 우선순위가 높다.",
+          "normalized": "대기 시간이 긴 프로세스일 경우 우선순위가 높다."
+        },
+        "C": {
+          "original": "③ 우선순위 계산식 값이 낮을수록 우선순위가 높다.",
+          "normalized": "우선순위 계산식 값이 낮을수록 우선순위가 높다."
+        },
+        "D": {
+          "original": "④ SJF 기법을 보완하기 위한 스케쥴링 방법이다.",
+          "normalized": "SJF 기법을 보완하기 위한 스케줄링 방법이다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "07aed4e1f9ef7c6dc3858712cf418c2e4c7608a70472a90418ed4e5f9d2d689c",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "HRN 우선순위는 (대기시간 + 서비스시간) / 서비스시간으로 계산하며 값이 클수록 우선순위가 높다. 낮을수록 높다는 C가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 67,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "C 언어에서 malloc() 함수에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "C언어에서 malloc() 함수에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 원하는 시점에 원하는 만큼 메모리를 동적으로 할당한다.",
+          "normalized": "원하는 시점에 원하는 만큼 메모리를 동적으로 할당한다."
+        },
+        "B": {
+          "original": "② 사용자가 입력한 bit만큼 메모리를 할당한다.",
+          "normalized": "사용자가 입력한 bit만큼 메모리를 할당한다."
+        },
+        "C": {
+          "original": "③ free 명령어로 할당된 메모리를 해제한다.",
+          "normalized": "free 명령어로 할당된 메모리를 해제한다."
+        },
+        "D": {
+          "original": "④ 메모리 할당이 불가능할 경우 NULL이 반환된다.",
+          "normalized": "메모리 할당이 불가능할 경우 NULL이 반환된다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "2b53e797ad0a20312f8564a105a3a103cd5b0f2080679c04b0d7021c406c9fcf",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "malloc의 인자는 할당할 메모리 크기를 바이트 단위로 지정한다. 비트 단위로 할당한다는 B가 틀렸다. 실패하면 NULL을 반환하고 free로 해제한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 68,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 중 프로세스에 대한 설명 중 틀린 것은?",
+      "originalQuestionText": "다음 중 프로세스에 대한 설명 중 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 프로세서가 할당되는 실체로, 디스패치가 가능한 단위이다.",
+          "normalized": "프로세서가 할당되는 실체로, 디스패치가 가능한 단위이다."
+        },
+        "B": {
+          "original": "② 프로세스는 비동기적 행위를 일으키는 주체이다.",
+          "normalized": "프로세스는 비동기적 행위를 일으키는 주체이다."
+        },
+        "C": {
+          "original": "③ 프로세스는 스레드 내의 작업단위를 의미하며, 경량 스레드라 고도 불린다.",
+          "normalized": "프로세스는 스레드 내의 작업 단위를 의미하며, 경량 스레드라고도 불린다."
+        },
+        "D": {
+          "original": "④ PCB를 가지며 PCB에는 프로세스의 현재상태, 고유식별자를 가지고 있다.",
+          "normalized": "PCB를 가지며 PCB에는 프로세스의 현재상태, 고유식별자를 가지고 있다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "bcc81637c6f10c2563d54aa80dfa779ce9c50f857fbb692442c75705fbd151ba",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "스레드는 프로세스 안에서 실행되는 경량 작업 단위다. 프로세스가 스레드 내의 작업 단위이며 경량 스레드라는 C가 관계를 반대로 설명했다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 69,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "3개의 보관 구조를 가지는 주기억장치가 있으며, 다음 순서로 페이지 참조가 발생할 때 FIFO 페이지 교체 알고리즘을 사용할 경우 마지막 페이지 값으로 옳은 것은?\n\n페이지 순서: 1, 2, 3, 2, 4, 2, 3, 1, 3",
+      "originalQuestionText": "3개의 보관구조를 가지는 주기억장치가 있으며, 다음의 순서로 페이지 참조가 발생할 때, FIFO 페이지 교체 알고리즘을 사용할 경우 마지막 페이지 값으로 옳은 것은?  페이지 순서 : 1, 2, 3, 2, 4, 2, 3, 1, 3",
+      "choices": {
+        "A": {
+          "original": "① 4, 2, 3",
+          "normalized": "4, 2, 3"
+        },
+        "B": {
+          "original": "② 4, 1, 3",
+          "normalized": "4, 1, 3"
+        },
+        "C": {
+          "original": "③ 1, 2, 3",
+          "normalized": "1, 2, 3"
+        },
+        "D": {
+          "original": "④ 1, 4, 2",
+          "normalized": "1, 4, 2"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cc1e2ee18bdc5d6e7dfd7f84f33708b591d54fb33fd946d303108066e06b90f7",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "FIFO로 세 프레임을 채운 뒤 가장 오래된 페이지부터 교체한다. 참조열을 끝까지 적용하면 최종 프레임은 4, 1, 3이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 70,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 설명에 해당하는 내용은 무엇인가?\n\n프로세스 처리 도중, 참조할 페이지가 주기억장치에 없어 프로세스 처리 시간보다 페이지 교체에 소요되는 시간이 더 많아지는 현상",
+      "originalQuestionText": "다음 설명에 해당하는 내용은 무엇인가?  프로세스 처리 도중, 참조할 페이지가 주기억장치에 없어 프로세스   처리시간보다   페이지   교체에   소요되는   시간이 더 많아지는 현상",
+      "choices": {
+        "A": {
+          "original": "① 스레드(Thread)",
+          "normalized": "스레드(Thread)"
+        },
+        "B": {
+          "original": "② 스래싱(Thrasing)",
+          "normalized": "스래싱(Thrashing)"
+        },
+        "C": {
+          "original": "③ 페이지부재(Page Fault)",
+          "normalized": "페이지부재(Page Fault)"
+        },
+        "D": {
+          "original": "④ 워킹셋(Working Set)",
+          "normalized": "워킹셋(Working Set)"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 5,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "af2bb221f347ce70fee0053ee48f71b2dac67669b7dee892e921ec1a24ab6361",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "스래싱은 페이지 부재와 교체가 지나치게 자주 발생해 실제 프로세스 실행보다 페이징에 더 많은 시간을 쓰는 현상이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 71,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "다음 중 IP 버전에 대한 설명 중 틀린 것은?",
+      "originalQuestionText": "다음 중 IP 버전에 대한 설명 중 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① IPv4는 각 부분을 옥텟으로 구성, 총 32비트로 구성된다.",
+          "normalized": "IPv4는 각 부분을 옥텟으로 구성, 총 32비트로 구성된다."
+        },
+        "B": {
+          "original": "② IPv6는 각 부분을 콜론으로 구분한다.",
+          "normalized": "IPv6는 각 부분을 콜론으로 구분한다."
+        },
+        "C": {
+          "original": "③ IPv4는 네트워크 부분의 길이에 따라 A 클래스에서 E 클래스 까지 총 5단계로 구성되어 있다.",
+          "normalized": "IPv4는 네트워크 부분의 길이에 따라 A 클래스에서 E 클래스까지 총 5단계로 구성되어 있다."
+        },
+        "D": {
+          "original": "④ IPv6는 IPv4에 비해 자료 전송 속도가 느리다.",
+          "normalized": "IPv6는 IPv4에 비해 자료 전송 속도가 느리다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9cfe319bd1cfe1cf48c3e314168869dcd6c03201ee011aab1f7ec8ee9cdbb2fd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "IPv6는 주소 공간과 헤더 구조를 개선했지만 IPv4보다 본질적으로 전송 속도가 느린 규격은 아니다. 따라서 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 72,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "Java에서 힙(Heap)에 남아있으나 변수가 가지고 있던 참조값을 잃거나 변수 자체가 없어짐으로써 더 이상 사용되지 않는 객체를 제거해주는 역할을 하는 모듈은?",
+      "originalQuestionText": "JAVA에서 힙(Heap)에 남아있으나 변수가 가지고 있던 참조값을 잃거나 변수 자체가 없어짐으로써 더 이상 사용되지 않는 객체를 제거해주는 역할을 하는 모듈은?",
+      "choices": {
+        "A": {
+          "original": "① Heap Collector",
+          "normalized": "Heap Collector"
+        },
+        "B": {
+          "original": "② Garbage Collector",
+          "normalized": "Garbage Collector"
+        },
+        "C": {
+          "original": "③ Memory Collector",
+          "normalized": "Memory Collector"
+        },
+        "D": {
+          "original": "④ Variable Collector",
+          "normalized": "Variable Collector"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "61b8d016742070db4f436e83dd15acf9345c2109ad9a24ca8ecf53a1879bebe0",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Garbage Collector는 힙에 남아 있지만 더 이상 어떤 유효한 참조에서도 도달할 수 없는 객체를 찾아 메모리를 회수한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 73,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "UNIX에서 새로운 프로세스를 생성하는 명령어는?",
+      "originalQuestionText": "UNIX에서 새로운 프로세스를 생성하는 명령어는?",
+      "choices": {
+        "A": {
+          "original": "① ls",
+          "normalized": "ls"
+        },
+        "B": {
+          "original": "② cat",
+          "normalized": "cat"
+        },
+        "C": {
+          "original": "③ fork",
+          "normalized": "fork"
+        },
+        "D": {
+          "original": "④ chmod",
+          "normalized": "chmod"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "96d88fc5b1e7299e5fa12c8d9898df9c1a5bdfda9d003287aa0194fb89cce012",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "UNIX의 fork 시스템 호출은 현재 프로세스를 복제하여 새로운 자식 프로세스를 생성한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 74,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "교착상태가 발생할 수 있는 조건이 아닌 것은?",
+      "originalQuestionText": "교착상태가 발생할 수 있는 조건이 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① Mutual exclusion",
+          "normalized": "Mutual exclusion"
+        },
+        "B": {
+          "original": "② Hold and wait",
+          "normalized": "Hold and wait"
+        },
+        "C": {
+          "original": "③ Non-preemption",
+          "normalized": "Non-preemption"
+        },
+        "D": {
+          "original": "④ Linear wait",
+          "normalized": "Linear wait"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "614f9fe926367634f3c9ca4897d26de2f8e53feb65986c063086a705ee3d13ef",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "교착 상태의 네 필요조건은 상호 배제, 점유와 대기, 비선점, 환형 대기다. Linear wait는 필요조건이 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 75,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "IEEE 802.3 LAN에서 사용되는 전송 매체 접속 제어(MAC) 방식은?",
+      "originalQuestionText": "IEEE 802.3 LAN에서 사용되는 전송 매체 접속 제어(MAC) 방식은?",
+      "choices": {
+        "A": {
+          "original": "① CSMA/CD",
+          "normalized": "CSMA/CD"
+        },
+        "B": {
+          "original": "② Token Bus",
+          "normalized": "Token Bus"
+        },
+        "C": {
+          "original": "③ Token Ring",
+          "normalized": "Token Ring"
+        },
+        "D": {
+          "original": "④ Slotted Ring",
+          "normalized": "Slotted Ring"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "bc3fc5138e65606ef5aa964767ffcd294e85a8daf4d47c62c3f545aba4215270",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "IEEE 802.3 Ethernet은 전송 전에 매체를 감지하고 충돌 시 재전송하는 CSMA/CD 매체 접근 방식을 사용한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 76,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "프로세스 상태의 종류가 아닌 것은?",
+      "originalQuestionText": "프로세스 상태의 종류가 아닌 것은?",
+      "choices": {
+        "A": {
+          "original": "① Ready",
+          "normalized": "Ready"
+        },
+        "B": {
+          "original": "② Running",
+          "normalized": "Running"
+        },
+        "C": {
+          "original": "③ Request",
+          "normalized": "Request"
+        },
+        "D": {
+          "original": "④ Exit",
+          "normalized": "Exit"
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "bb21f14711b6e669dc81c3cdb227403d5d78c4cf404fcc6e47a279f77664d7ad",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "대표적인 프로세스 상태는 생성, 준비(Ready), 실행(Running), 대기와 종료(Exit)다. Request는 표준 프로세스 상태가 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 77,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "TCP/IP에서 사용되는 논리 주소를 물리 주소로 변환시켜 주는 프로토콜은?",
+      "originalQuestionText": "TCP/IP에서 사용되는 논리주소를 물리주소로 변환시켜 주는 프로토 콜은?",
+      "choices": {
+        "A": {
+          "original": "① TCP",
+          "normalized": "TCP"
+        },
+        "B": {
+          "original": "② ARP",
+          "normalized": "ARP"
+        },
+        "C": {
+          "original": "③ FTP",
+          "normalized": "FTP"
+        },
+        "D": {
+          "original": "④ IP",
+          "normalized": "IP"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "73427b00a31779b6f7e40b772596f8e0a8ae03ea8005135f4d10733e53f00d10",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "ARP는 IPv4 네트워크에서 논리 주소인 IP 주소에 대응하는 물리 주소인 MAC 주소를 알아내는 프로토콜이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 78,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "OSI 7계층 중 네트워크 계층에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "OSI 7계층 중 네트워크 계층에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 패킷을 발신지로부터 최종 목적지까지 전달하는 책임을 진다.",
+          "normalized": "패킷을 발신지로부터 최종 목적지까지 전달하는 책임을 진다."
+        },
+        "B": {
+          "original": "② 한 노드로부터 다른 노드로 프레임을 전송하는 책임을 진다.",
+          "normalized": "한 노드로부터 다른 노드로 프레임을 전송하는 책임을 진다."
+        },
+        "C": {
+          "original": "③ 패킷에 발신지와 목적지의 논리 주소를 추가한다.",
+          "normalized": "패킷에 발신지와 목적지의 논리 주소를 추가한다."
+        },
+        "D": {
+          "original": "④ 라우터 또는 교환기는 패킷 전달을 위해 경로를 지정하거나 교환 기능을 제공한다.",
+          "normalized": "라우터 또는 교환기는 패킷 전달을 위해 경로를 지정하거나 교환 기능을 제공한다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "eb488b00bef814bb3e53aab9d42e5359941337463a8b9b11a8568743c0c2f763",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "프레임을 한 노드에서 인접 노드로 전달하는 것은 데이터 링크 계층의 책임이다. 네트워크 계층은 논리 주소와 라우팅을 이용해 패킷을 최종 목적지까지 전달한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 79,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "프레임워크(Framework)에 대한 설명으로 옳은 것은?",
+      "originalQuestionText": "프레임워크(Framework)에 대한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 소프트웨어 구성에 필요한 기본 구조를 제공함으로써 재사용 이 가능하게 해준다",
+          "normalized": "소프트웨어 구성에 필요한 기본 구조를 제공함으로써 재사용이 가능하게 해 준다."
+        },
+        "B": {
+          "original": "② 소프트웨어 개발 시 구조가 잡혀 있기 때문에 확장이 불가능하다.",
+          "normalized": "소프트웨어 개발 시 구조가 잡혀 있기 때문에 확장이 불가능하다."
+        },
+        "C": {
+          "original": "③ 소프트웨어 아키텍처(Architecture)와 동일한 개념이다.",
+          "normalized": "소프트웨어 아키텍처(Architecture)와 동일한 개념이다."
+        },
+        "D": {
+          "original": "④ 모듈화(Modularity)가 불가능하다.",
+          "normalized": "모듈화(Modularity)가 불가능하다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "a682d4c75cc1988c9dc858e965ff1a8330e1d9ac633600a6948afb76a7f0b0d9",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "프레임워크는 애플리케이션의 기본 구조와 공통 기능을 제공해 코드를 재사용하고 일관된 방식으로 확장·모듈화하도록 돕는다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 80,
+      "subject": "프로그래밍 언어 활용",
+      "questionText": "C 언어 라이브러리 중 stdlib.h에 대한 설명으로 옳은 것은?",
+      "originalQuestionText": "C언어 라이브러리 중 stdlib.h에 대한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 문자열을 수치 데이터로 바꾸는 문자 변환함수와 수치를 문자 열로 바꿔주는 변환함수 등이 있다.",
+          "normalized": "문자열을 수치 데이터로 바꾸는 문자 변환 함수와 수치를 문자열로 바꿔 주는 변환 함수 등이 있다."
+        },
+        "B": {
+          "original": "② 문자열 처리 함수로 strlen()이 포함되어 있다.",
+          "normalized": "문자열 처리 함수로 strlen()이 포함되어 있다."
+        },
+        "C": {
+          "original": "③ 표준 입출력 라이브러리이다.",
+          "normalized": "표준 입출력 라이브러리이다."
+        },
+        "D": {
+          "original": "④ 삼각 함수, 제곱근, 지수 등 수학적인 함수를 내장하고 있다.",
+          "normalized": "삼각 함수, 제곱근, 지수 등 수학적인 함수를 내장하고 있다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "ad7f1a9d30ea31aa78419eee8d6cb511b0920fe1e2fb05ceffd6a3b61756f5e0",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "stdlib.h에는 문자열과 수치 사이의 변환, 동적 메모리 할당과 난수 함수 등이 선언된다. strlen은 string.h, 표준 입출력은 stdio.h, 수학 함수는 math.h에 속한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 81,
+      "subject": "정보시스템 구축관리",
+      "questionText": "입력 데이터 검증 및 표현과 관련된 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "입력 데이터 검증 및 표현과 관련된 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① SQL 삽입 : 웹 응용 프로그램에 SQL을 삽입하여 내부 데이터 베이스(DB) 서버의 데이터를 유출 및 변조하고, 관리자 인증을 우회한다.",
+          "normalized": "SQL 삽입: 웹 응용 프로그램에 SQL을 삽입하여 내부 데이터베이스(DB) 서버의 데이터를 유출 및 변조하고, 관리자 인증을 우회한다."
+        },
+        "B": {
+          "original": "② 크로스사이트 스크립트 : 웹페이지에 악의적인 스크립트를 삽 입하여 방문자들의 정보를 탈취한다.",
+          "normalized": "크로스사이트 스크립트: 웹페이지에 악의적인 스크립트를 삽입하여 방문자들의 정보를 탈취한다."
+        },
+        "C": {
+          "original": "③ 자원 삽입 : 악의적인 명령어가 포함된 스크립트 파일을 업로드 함으로써 시스템에 손상을 준다.",
+          "normalized": "자원 삽입: 악의적인 명령어가 포함된 스크립트 파일을 업로드함으로써 시스템에 손상을 준다."
+        },
+        "D": {
+          "original": "④ 운영체제 명령어 삽입 : 외부 입력값을 통해 시스템 명령어의 실행을 유도함으로써 권한을 탈취하거나 시스템 장애를 유발 한다.",
+          "normalized": "운영체제 명령어 삽입: 외부 입력값을 통해 시스템 명령어의 실행을 유도함으로써 권한을 탈취하거나 시스템 장애를 유발한다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "64680f25c201fc8fb6b503299346e1932f8ec00a43a5cdb569e4f175062e51b2",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "악성 스크립트 파일 업로드는 위험한 형식 파일 업로드 또는 무제한 파일 업로드 취약점에 가깝다. 이를 자원 삽입의 설명으로 연결한 C가 적절하지 않다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 82,
+      "subject": "정보시스템 구축관리",
+      "questionText": "악성코드의 유형 중 다른 컴퓨터의 취약점을 이용하여 스스로 전파하거나 메일로 전파되며 스스로를 증식하는 것은?",
+      "originalQuestionText": "악성코드의 유형 중 다른 컴퓨터의 취약점을 이용하여 스스로 전파하 거나 메일로 전파되며 스스로를 증식하는 것은?",
+      "choices": {
+        "A": {
+          "original": "① Worm",
+          "normalized": "Worm"
+        },
+        "B": {
+          "original": "② Rogue Ware",
+          "normalized": "Rogue Ware"
+        },
+        "C": {
+          "original": "③ Adware",
+          "normalized": "Adware"
+        },
+        "D": {
+          "original": "④ Reflection Attack",
+          "normalized": "Reflection Attack"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "26184e67fb6d710098f4c6704e34e4501b0b9d7f00c64e53b45582a14996c7d8",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "웜은 다른 시스템의 취약점이나 네트워크·메일을 이용해 스스로 복제하고 전파하는 악성코드다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 83,
+      "subject": "정보시스템 구축관리",
+      "questionText": "정보 보안 요소 중 무결성(Integrity)에 대한 설명으로 옳은 것은?",
+      "originalQuestionText": "정보 보안 요소 중 무결성(Integrity)에 대한 설명으로 옳은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 시스템 내의 정보와 자원은 인가된 사용자에게만 접근이 허용 된다는 것을 의미한다.",
+          "normalized": "시스템 내의 정보와 자원은 인가된 사용자에게만 접근이 허용된다는 것을 의미한다."
+        },
+        "B": {
+          "original": "② 시스템 내의 정보와 자원을 사용하려는 사용자가 합법적인 사 용자인지를 확인하는 모든 행위를 말한다.",
+          "normalized": "시스템 내의 정보와 자원을 사용하려는 사용자가 합법적인 사용자인지를 확인하는 모든 행위를 말한다."
+        },
+        "C": {
+          "original": "③ 인가받은 사용자는 언제라도 사용할 수 있다는 것을 의미한다.",
+          "normalized": "인가받은 사용자는 언제라도 사용할 수 있다는 것을 의미한다."
+        },
+        "D": {
+          "original": "④ 시스템 내의 정보는 오직 인가된 사용자만 수정할 수 있다는 것을 의미한다.",
+          "normalized": "시스템 내의 정보는 오직 인가된 사용자만 수정할 수 있다는 것을 의미한다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "b22ec0b420099926f297ccbdfc918067a5a46cf1fa2bac37c3407376db4233a1",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "무결성은 정보가 인가된 사용자나 절차에 의해서만 올바르게 수정되고 비인가 변경이 일어나지 않도록 보장하는 보안 성질이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 84,
+      "subject": "정보시스템 구축관리",
+      "questionText": "세션 하이재킹을 탐지하는 방법으로 거리가 먼 것은?",
+      "originalQuestionText": "세션 하이재킹을 탐지하는 방법으로 거리가 먼 것은?",
+      "choices": {
+        "A": {
+          "original": "① FTP SYN SEGMENT 탐지",
+          "normalized": "FTP SYN SEGMENT 탐지"
+        },
+        "B": {
+          "original": "② 비동기화 상태 탐지",
+          "normalized": "비동기화 상태 탐지"
+        },
+        "C": {
+          "original": "③ ACK STORM 탐지",
+          "normalized": "ACK STORM 탐지"
+        },
+        "D": {
+          "original": "④ 패킷의 유실 및 재전송 증가 탐지",
+          "normalized": "패킷의 유실 및 재전송 증가 탐지"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "583d92ea3b196843e9f714a93939526163f0a0cc51235951c01c2b1c7ad81e76",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "세션 하이재킹은 비동기화, ACK Storm, 패킷 유실·재전송 증가 등 TCP 세션의 이상 징후로 탐지할 수 있다. FTP SYN Segment 탐지는 일반적인 탐지 방법이 아니다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 85,
+      "subject": "정보시스템 구축관리",
+      "questionText": "정보 보안의 3요소에 해당하지 않는 것은?",
+      "originalQuestionText": "정보 보안의 3요소에 해당하지 않는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 기밀성",
+          "normalized": "기밀성"
+        },
+        "B": {
+          "original": "② 무결성",
+          "normalized": "무결성"
+        },
+        "C": {
+          "original": "③ 가용성",
+          "normalized": "가용성"
+        },
+        "D": {
+          "original": "④ 휘발성",
+          "normalized": "휘발성"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "2cbb0052dd87d4ffc56cd848999539369accc86314dbf818713a7da4807704e4",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "정보 보안의 기본 3요소는 기밀성, 무결성, 가용성이다. 휘발성은 정보 보안 3요소에 포함되지 않는다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 86,
+      "subject": "정보시스템 구축관리",
+      "questionText": "LOC 기법에 의하여 예측된 총 라인수가 36,000라인, 개발에 참여할 프로그래머가 6명, 프로그래머들의 평균 생산성이 월간 300라인일 때 개발에 소요되는 기간은?",
+      "originalQuestionText": "LOC 기법에 의하여 예측된 총 라인수가 36,000라인, 개발에 참여할 프로그래머가 6명, 프로그래머들의 평균 생산성이 월간 300라인일 때 개발에 소요되는 기간은?",
+      "choices": {
+        "A": {
+          "original": "① 5개월",
+          "normalized": "5개월"
+        },
+        "B": {
+          "original": "② 10개월",
+          "normalized": "10개월"
+        },
+        "C": {
+          "original": "③ 15개월",
+          "normalized": "15개월"
+        },
+        "D": {
+          "original": "④ 20개월",
+          "normalized": "20개월"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cca4b58dff7bc707034eaa296874db998cb3f3c45dab6cf81908a360563a6067",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "월간 전체 생산량은 6명×300라인=1,800라인이다. 총 36,000라인을 나누면 개발 기간은 36,000÷1,800=20개월이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 87,
+      "subject": "정보시스템 구축관리",
+      "questionText": "COCOMO 모델에 의한 비용 산정에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "COCOMO 모델에 의한 비용 산정에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 보헴이 제안한 원시 프로그램의 규모에 의한 비용예측 모형이 다.",
+          "normalized": "보헴이 제안한 원시 프로그램의 규모에 의한 비용 예측 모형이다."
+        },
+        "B": {
+          "original": "② 같은 규모의 소프트웨어라도 그 유형에 따라 비용이 다르게 산정된다.",
+          "normalized": "같은 규모의 소프트웨어라도 그 유형에 따라 비용이 다르게 산정된다."
+        },
+        "C": {
+          "original": "③ 비용 산정 유형으로 Organic   Mode,   Embedded   Mode, Semi-Detached Mode가 있다.",
+          "normalized": "비용 산정 유형으로 Organic Mode, Embedded Mode, Semi-Detached Mode가 있다."
+        },
+        "D": {
+          "original": "④ UFP(Unadjusted Function Point)를 계산한다.",
+          "normalized": "UFP(Unadjusted Function Point)를 계산한다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "cd4318cb58477568e87a61bcd1cde870accb9fac44bbbae7688169abde94f58d",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "COCOMO는 LOC와 프로젝트 유형을 바탕으로 노력과 비용을 추정한다. UFP는 기능점수(Function Point) 방식에서 계산하므로 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 88,
+      "subject": "정보시스템 구축관리",
+      "questionText": "Wi-Fi에서 제정한 무선 랜(WLAN) 인증 및 암호화 관련 표준은?",
+      "originalQuestionText": "Wi-Fi에서 제정한 무선 랜(WLAN) 인증 및 암호화 관련 표준은?",
+      "choices": {
+        "A": {
+          "original": "① WCDMA",
+          "normalized": "WCDMA"
+        },
+        "B": {
+          "original": "② WPA",
+          "normalized": "WPA"
+        },
+        "C": {
+          "original": "③ SSL",
+          "normalized": "SSL"
+        },
+        "D": {
+          "original": "④ SHA",
+          "normalized": "SHA"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 6,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "a7b21a6cf0fcac5ac93d30a70ff44d230ab83a683fdc6ea2d06e8efb2ffc92ca",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "WPA는 Wi-Fi Alliance가 무선 LAN의 인증과 데이터 암호화를 강화하기 위해 제정한 보안 표준이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 89,
+      "subject": "정보시스템 구축관리",
+      "questionText": "다음 설명에 해당하는 암호화 알고리즘은?\n\n• DES의 보안 문제를 해결하기 위해 개발되었다.\n• NIST에서 개발한 개인키 암호화 알고리즘이다.",
+      "originalQuestionText": "다음 설명에 해당하는 암호화 알고리즘은?  ㆍDES의 보안 문제를 해결하기 위해 개발되었다. ㆍNIST에서 개발한 개인키 암호화 알고리즘이다.",
+      "choices": {
+        "A": {
+          "original": "① ARIA",
+          "normalized": "ARIA"
+        },
+        "B": {
+          "original": "② AES",
+          "normalized": "AES"
+        },
+        "C": {
+          "original": "③ DSA",
+          "normalized": "DSA"
+        },
+        "D": {
+          "original": "④ SEED",
+          "normalized": "SEED"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "4260b7e6be1f277278ab97e1a2ec308df55425172d313fe7a0cbbc57aec461fd",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "AES는 DES의 짧은 키와 보안 문제를 대체하기 위해 NIST가 표준화한 대칭키 블록 암호 알고리즘이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 90,
+      "subject": "정보시스템 구축관리",
+      "questionText": "침입탐지 시스템(IDS: Intrusion Detection System)과 관련한 설명으로 틀린 것은?",
+      "originalQuestionText": "침입탐지 시스템(IDS : Intrusion Detection System)과 관련한 설명으 로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 이상 탐지 기법(Anomaly Detection)은 Signature Base나 Knowledge Base라고도 불리며 이미 발견되고 정립된 공격 패턴을 입력해두었다가 탐지 및 차단한다.",
+          "normalized": "이상 탐지 기법(Anomaly Detection)은 Signature Base나 Knowledge Base라고도 불리며 이미 발견되고 정립된 공격 패턴을 입력해두었다가 탐지 및 차단한다."
+        },
+        "B": {
+          "original": "② HIDS(Host-Based Intrusion Detection)는 운영체제에 설정 된 사용자 계정에 따라 어떤 사용자가 어떤 접근을 시도하고 어떤 작업을 했는지에 대한 기록을 남기고 추적한다.",
+          "normalized": "HIDS(Host-Based Intrusion Detection)는 운영체제에 설정된 사용자 계정에 따라 어떤 사용자가 어떤 접근을 시도하고 어떤 작업을 했는지에 대한 기록을 남기고 추적한다."
+        },
+        "C": {
+          "original": "③ NIDS(Network-Based Intrusion Detection System)로는 대 표적으로 Snort가 있다.",
+          "normalized": "NIDS(Network-Based Intrusion Detection System)로는 대표적으로 Snort가 있다."
+        },
+        "D": {
+          "original": "④ 외부 인터넷에 서비스를 제공하는 서버가 위치하는 네트워크 인 DMZ(Demilitarized Zone)에는 IDS가 설치될 수 있다.",
+          "normalized": "외부 인터넷에 서비스를 제공하는 서버가 위치하는 네트워크 인 DMZ(Demilitarized Zone)에는 IDS가 설치될 수 있다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "d2390a3d669a967731f24803a0405c111b012723858c666dfe264e94579340aa",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "알려진 공격 패턴이나 서명을 비교하는 방식은 오용·서명 기반 탐지다. 정상 행위에서 벗어난 이상을 찾는 Anomaly Detection을 Signature Base라고 한 A가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 91,
+      "subject": "정보시스템 구축관리",
+      "questionText": "네트워크 장비에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "네트워크 장비에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 브라우터는 전송되는 신호가 전송 선로의 특성 및 외부 충격 등의 요인으로 인해 원래의 형태와 다르게 왜곡되거나 약해질 경우 원래의 신호 형태로 재생하여 다시 전송하는 역할을 수행 한다.",
+          "normalized": "브라우터는 전송되는 신호가 전송 선로의 특성 및 외부 충격 등의 요인으로 인해 원래의 형태와 다르게 왜곡되거나 약해질 경우 원래의 신호 형태로 재생하여 다시 전송하는 역할을 수행한다."
+        },
+        "B": {
+          "original": "② 브리지는 LAN과 LAN을 연결하거나 LAN 안에서의 컴퓨터 그룹을 연결하는 기능을 수행하며, 데이터 링크 계층 중 MAC 계층에서 사용된다.",
+          "normalized": "브리지는 LAN과 LAN을 연결하거나 LAN 안에서의 컴퓨터 그룹을 연결하는 기능을 수행하며, 데이터 링크 계층 중 MAC 계층에서 사용된다."
+        },
+        "C": {
+          "original": "③ 스위치는 LAN과 LAN을 연결하여 훨씬 더 큰 LAN을 만드는 장치로, OSI 7계층의 2계층에서 사용된다.",
+          "normalized": "스위치는 LAN과 LAN을 연결하여 훨씬 더 큰 LAN을 만드는 장치로, OSI 7계층의 2계층에서 사용된다."
+        },
+        "D": {
+          "original": "④ 라우터는 LAN과 LAN의 연결 기능에 데이터 전송의 최적 경로 를 선택할 수 있는 기능이 추가된 것으로, 서로 다른 LAN이나 LAN과 WAN의 연결도 수행하고, OSI 7계층의 네트워크 계층 에서 동작한다.",
+          "normalized": "라우터는 LAN과 LAN의 연결 기능에 데이터 전송의 최적 경로를 선택할 수 있는 기능이 추가된 것으로, 서로 다른 LAN이나 LAN과 WAN의 연결도 수행하고, OSI 7계층의 네트워크 계층에서 동작한다."
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "c5da40935b11294daf4bb57320b5fddf2a1caa46786b39e8cbd62a836d04ad65",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "신호를 원래 형태로 재생해 다시 전송하는 장치는 리피터다. 브라우터는 브리지와 라우터 기능을 결합한 장치이므로 A의 장치와 기능 연결이 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 92,
+      "subject": "정보시스템 구축관리",
+      "questionText": "SQL Injection 공격과 관련한 설명으로 틀린 것은?",
+      "originalQuestionText": "SQL Injection 공격과 관련한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① SQL Injection은 임의로 작성한 SQL 구문을 애플리케이션에 삽입하는 공격 방식이다.",
+          "normalized": "SQL Injection은 임의로 작성한 SQL 구문을 애플리케이션에 삽입하는 공격 방식이다."
+        },
+        "B": {
+          "original": "② SQL Injection 취약점이 발생하는 곳은 주로 웹 애플리케이션 과 데이터베이스가 연동되는 부분이다.",
+          "normalized": "SQL Injection 취약점이 발생하는 곳은 주로 웹 애플리케이션과 데이터베이스가 연동되는 부분이다."
+        },
+        "C": {
+          "original": "③ DBMS의 종류와 관계없이 SQL Injection 공격 기법은 모두 동일하다.",
+          "normalized": "DBMS의 종류와 관계없이 SQL Injection 공격 기법은 모두 동일하다."
+        },
+        "D": {
+          "original": "④ 로그인과 같이 웹에서 사용자의 입력 값을 받아 데이터베이스 SQL문으로 데이터를 요청하는 경우 SQL Injection을 수행할 수 있다.",
+          "normalized": "로그인과 같이 웹에서 사용자의 입력 값을 받아 데이터베이스 SQL문으로 데이터를 요청하는 경우 SQL Injection을 수행할 수 있다."
+        }
+      },
+      "correctAnswer": "C",
+      "originalAnswerText": "③",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9699952eddccd5e17fb4b964ba6c6010be9a3916e051d96aee9474cc79d58132",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "SQL 삽입의 구체적인 구문과 우회 기법은 DBMS의 문법, 함수와 오류 처리 방식에 따라 달라진다. DBMS 종류와 무관하게 공격 기법이 모두 같다는 C가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 93,
+      "subject": "정보시스템 구축관리",
+      "questionText": "브리지와 구내 정보 통신망(LAN)으로 구성된 통신망에서 루프(폐회로)를 형성하지 않으면서 연결을 설정하는 알고리즘은?",
+      "originalQuestionText": "브리지와 구내 정보 통신망(LAN)으로 구성된 통신망에서 루프(폐회 로)를 형성하지 않으면서 연결을 설정하는 알고리즘은?",
+      "choices": {
+        "A": {
+          "original": "① Spanning Tree Algorithm",
+          "normalized": "Spanning Tree Algorithm"
+        },
+        "B": {
+          "original": "② Diffie-Hellman Algorithm",
+          "normalized": "Diffie-Hellman Algorithm"
+        },
+        "C": {
+          "original": "③ Hash Algorithm",
+          "normalized": "Hash Algorithm"
+        },
+        "D": {
+          "original": "④ Digital Signature Algorithm",
+          "normalized": "Digital Signature Algorithm"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "f0b62bd6f5f161f689b09c54f738efb9ec6f7b38b64a62a25dd98081c337cea6",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "스패닝 트리 알고리즘은 브리지와 스위치가 중복 링크 중 일부를 차단해 LAN에 루프가 없는 논리적 트리를 구성한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 94,
+      "subject": "정보시스템 구축관리",
+      "questionText": "다음 내용이 설명하는 것은?\n\n• 블록체인(Blockchain) 개발 환경을 클라우드로 서비스하는 개념\n• 블록체인 네트워크에 노드의 추가 및 제거가 용이\n• 블록체인의 기본 인프라를 추상화하여 블록체인 응용 프로그램을 만들 수 있는 클라우드 컴퓨팅 플랫폼",
+      "originalQuestionText": "다음 내용이 설명하는 것은?  ㆍ블록체인(Blockchain) 개발환경을 클라우드로 서비스하 는 개념 ㆍ블록체인 네트워크에 노드의 추가 및 제거가 용이 ㆍ블록체인의 기본 인프라를 추상화하여 블록체인 응용프 로그램을 만들 수 있는 클라우드 컴퓨팅 플랫폼",
+      "choices": {
+        "A": {
+          "original": "① OTT",
+          "normalized": "OTT"
+        },
+        "B": {
+          "original": "② BaaS",
+          "normalized": "BaaS"
+        },
+        "C": {
+          "original": "③ SDDC",
+          "normalized": "SDDC"
+        },
+        "D": {
+          "original": "④ Wi-SUN",
+          "normalized": "Wi-SUN"
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "fd301d63d12117ca60122f41c733fa9975d7923bcc857db637ebd5384da8201d",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "BaaS(Blockchain as a Service)는 블록체인 네트워크와 개발 인프라를 클라우드 서비스로 제공해 노드 구성과 애플리케이션 개발을 쉽게 한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 95,
+      "subject": "정보시스템 구축관리",
+      "questionText": "소프트웨어 재공학의 주요 활동 중 기존 소프트웨어를 다른 운영체제나 하드웨어 환경에서 사용할 수 있도록 변환하는 것은?",
+      "originalQuestionText": "소프트웨어 재공학의 주요 활동 중 기존 소프트웨어를 다른 운영체제 나 하드웨어 환경에서 사용할 수 있도록 변환하는 것은?",
+      "choices": {
+        "A": {
+          "original": "① 역공학",
+          "normalized": "역공학"
+        },
+        "B": {
+          "original": "② 분석",
+          "normalized": "분석"
+        },
+        "C": {
+          "original": "③ 재구성",
+          "normalized": "재구성"
+        },
+        "D": {
+          "original": "④ 이식",
+          "normalized": "이식"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "5f474834a1e6cbd8cf56616ed394a755ca2a92c00dcb429b6b89cfab24894daf",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "이식은 기존 소프트웨어가 다른 운영체제나 하드웨어 환경에서도 동작하도록 변환·적응시키는 재공학 활동이다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 96,
+      "subject": "정보시스템 구축관리",
+      "questionText": "다음 암호 알고리즘 중 성격 다른 하나는?",
+      "originalQuestionText": "다음 암호 알고리즘 중 성격 다른 하나는?",
+      "choices": {
+        "A": {
+          "original": "① MD4",
+          "normalized": "MD4"
+        },
+        "B": {
+          "original": "② MD5",
+          "normalized": "MD5"
+        },
+        "C": {
+          "original": "③ SHA-1",
+          "normalized": "SHA-1"
+        },
+        "D": {
+          "original": "④ AES",
+          "normalized": "AES"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "9ef5a4e01f43320ca3eb36e51847ae81fdc2bed21784af3c7cd4c5fe7062eadb",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "MD4, MD5, SHA-1은 입력을 고정 길이 값으로 바꾸는 일방향 해시 함수다. AES는 키로 암호화와 복호화를 수행하는 대칭키 암호라 성격이 다르다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 97,
+      "subject": "정보시스템 구축관리",
+      "questionText": "다음 내용이 설명하는 것은?\n\n• 네트워크상에 광채널 스위치의 이점인 고속 전송과 장거리 연결 및 멀티 프로토콜 기능을 활용\n• 각기 다른 운영체제를 가진 여러 기종들이 네트워크상에서 동일 저장장치의 데이터를 공유하게 함으로써, 여러 개의 저장장치나 백업 장비를 단일화시킨 시스템",
+      "originalQuestionText": "다음 내용이 설명하는 것은?  ㆍ네트워크상에 광채널 스위치의 이점인 고속 전송과 장 거리 연결 및 멀티 프로토콜 기능을 활용 ㆍ각기 다른 운영체제를 가진 여러 기종들이 네트워크상 에서 동일 저장장치의 데이터를 공유하게 함으로써, 여 러 개의 저장장치나 백업 장비를 단일화시킨 시스템",
+      "choices": {
+        "A": {
+          "original": "① SAN",
+          "normalized": "SAN"
+        },
+        "B": {
+          "original": "② MBR",
+          "normalized": "MBR"
+        },
+        "C": {
+          "original": "③ NAC",
+          "normalized": "NAC"
+        },
+        "D": {
+          "original": "④ NIC",
+          "normalized": "NIC"
+        }
+      },
+      "correctAnswer": "A",
+      "originalAnswerText": "①",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "82d9b900ca350a2684dff0a1b01eb29d9211b6452ebe707035db46ed27c20b92",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "SAN은 고속 광채널 등의 전용 네트워크로 여러 서버와 저장장치를 연결해 이기종 시스템이 저장 자원을 공유하게 한다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 98,
+      "subject": "정보시스템 구축관리",
+      "questionText": "기존 무선 랜의 한계 극복을 위해 등장하였으며, 대규모 디바이스의 네트워크 생성에 최적화되어 차세대 이동통신, 홈네트워킹, 공공 안전 등의 특수목적에 사용되는 새로운 방식의 네트워크 기술을 의미하는 것은?",
+      "originalQuestionText": "기존 무선 랜의 한계 극복을 위해 등장하였으며, 대규모 디바이스의 네트워크 생성에 최적화되어 차세대 이동통신, 홈네트워킹, 공공 안전 등의 특수목적에 사용되는 새로운 방식의 네트워크 기술을 의미하는 것은?",
+      "choices": {
+        "A": {
+          "original": "① Software Defined Perimeter",
+          "normalized": "Software Defined Perimeter"
+        },
+        "B": {
+          "original": "② Virtual Private Network",
+          "normalized": "Virtual Private Network"
+        },
+        "C": {
+          "original": "③ Local Area Network",
+          "normalized": "Local Area Network"
+        },
+        "D": {
+          "original": "④ Mesh Network",
+          "normalized": "Mesh Network"
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "3c79f30c1f4c6c494c71bebae2adb04a1dd3733af3ac41f4fe4330dbee7225d1",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "Mesh Network는 각 노드가 주변 노드와 다중 경로로 연결되어 넓은 범위와 많은 장치를 유연하게 수용하므로 차세대 통신, 홈 네트워크와 공공 안전 등에 활용된다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 99,
+      "subject": "정보시스템 구축관리",
+      "questionText": "CPM(Critical Path Method)에 대한 설명으로 옳지 않은 것은?",
+      "originalQuestionText": "CPM(Critical Path Method)에 대한 설명으로 옳지 않은 것은?",
+      "choices": {
+        "A": {
+          "original": "① 프로젝트 내에서 각 작업이 수행되는 시간과 각 작업 사이의 관계를 파악할 수 있다.",
+          "normalized": "프로젝트 내에서 각 작업이 수행되는 시간과 각 작업 사이의 관계를 파악할 수 있다."
+        },
+        "B": {
+          "original": "② 작업 일정을 한눈에 볼 수 있도록 해주며 막대 그래프의 형태로 표현한다.",
+          "normalized": "작업 일정을 한눈에 볼 수 있도록 해주며 막대 그래프의 형태로 표현한다."
+        },
+        "C": {
+          "original": "③ 효과적인 프로젝트의 통제를 가능하게 해 준다.",
+          "normalized": "효과적인 프로젝트의 통제를 가능하게 해준다."
+        },
+        "D": {
+          "original": "④ 경영층의 과학적인 의사 결정을 지원한다.",
+          "normalized": "경영층의 과학적인 의사 결정을 지원한다."
+        }
+      },
+      "correctAnswer": "B",
+      "originalAnswerText": "②",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "801d7eb2aa07e4eb061c76922e3258a3aefad5bbb113c503a3607a801538b2b0",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "CPM은 작업의 선후 관계와 소요 시간을 네트워크로 표현해 임계 경로를 찾는 일정 관리 기법이다. 막대 그래프로 일정을 보여 주는 것은 간트 차트이므로 B가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    },
+    {
+      "questionNo": 100,
+      "subject": "정보시스템 구축관리",
+      "questionText": "클라우드 기반 HSM(Cloud-based Hardware Security Module)에 대한 설명으로 틀린 것은?",
+      "originalQuestionText": "클라우드 기반 HSM(Cloud-based Hardware Security Module)에 대한 설명으로 틀린 것은?",
+      "choices": {
+        "A": {
+          "original": "① 클라우드(데이터센터) 기반 암호화 키 생성, 처리, 저장 등을 하는 보안 기기이다.",
+          "normalized": "클라우드(데이터센터) 기반 암호화 키 생성, 처리, 저장 등을 하는 보안 기기이다."
+        },
+        "B": {
+          "original": "② 국내에서는 공인인증제의 폐지와 전자서명법 개정을 추진하면 서 클라우드 HSM 용어가 자주 등장하였다.",
+          "normalized": "국내에서는 공인인증제의 폐지와 전자서명법 개정을 추진하면서 클라우드 HSM 용어가 자주 등장하였다."
+        },
+        "C": {
+          "original": "③ 클라우드에 인증서를 저장하므로 기존 HSM 기기나 휴대폰에 인증서를 저장해 다닐 필요가 없다.",
+          "normalized": "클라우드에 인증서를 저장하므로 기존 HSM 기기나 휴대폰에 인증서를 저장해 다닐 필요가 없다."
+        },
+        "D": {
+          "original": "④ 하드웨어가 아닌 소프트웨어적으로만 구현되기 때문에 소프트 웨어식 암호 기술에 내재된 보안 취약점을 해결할 수 없다는 것이 주요 단점이다.",
+          "normalized": "하드웨어가 아닌 소프트웨어적으로만 구현되기 때문에 소프트웨어식 암호 기술에 내재된 보안 취약점을 해결할 수 없다는 것이 주요 단점이다."
+        }
+      },
+      "correctAnswer": "D",
+      "originalAnswerText": "④",
+      "sourcePage": 7,
+      "sourceType": "uploaded_exam_pdf",
+      "sourceDocument": "2022년3회_기사필기 기출문제.pdf",
+      "normalizedHash": "f58fa055e6cd3a771873e1c642d50004b231232f53dacdf97185e439b56cca09",
+      "assets": [],
+      "hasImageReference": false,
+      "isCode": false,
+      "isSql": false,
+      "needsReview": false,
+      "reviewReasons": [],
+      "explanation": "클라우드 HSM은 암호 키를 변조 방지 하드웨어에서 생성·보관·처리하고 이를 클라우드 서비스로 제공한다. 소프트웨어로만 구현되어 하드웨어 보호가 없다는 D가 틀렸다.",
+      "explanationStatus": "verified",
+      "explanationSource": "authored"
+    }
+  ]
+}
