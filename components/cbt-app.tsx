@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 type Key = "A" | "B" | "C" | "D";
@@ -188,7 +189,7 @@ export function CbtApp() {
     [loading, setLoading] = useState(true);
   const [pwaReady, setPwaReady] = useState(false);
   useEffect(() => {
-      fetch("/api/questions?v=20260721-19", { cache: "no-store" })
+      fetch("/api/questions?v=20260723-20", { cache: "no-store" })
       .then((r) => r.json())
       .then((d) => setBank(d.questions))
       .finally(() => setLoading(false));
@@ -525,6 +526,15 @@ export function CbtApp() {
           </div>
         </div>
       </section>
+      <Link className="programmingStudyEntry" href="/study/programming">
+        <span className="programmingStudyIcon" aria-hidden="true">&lt;/&gt;</span>
+        <span>
+          <small>필기 · 실기 개념 학습</small>
+          <b>프로그래밍 핵심 정리</b>
+          <em>C · Java · Python · SQL</em>
+        </span>
+        <strong aria-hidden="true">→</strong>
+      </Link>
       <section className="setup">
         <label>학습 모드</label>
         <div className="modeGrid">

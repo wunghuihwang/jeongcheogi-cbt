@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     scope: "/",
     name: "정처기 CBT",
     short_name: "정처기 CBT",
-    description: "2022~2025 정보처리기사 필기 기출 CBT",
+    description: "정보처리기사 필기 기출 CBT와 C·Java·Python·SQL 핵심 정리",
     start_url: "/",
     display: "standalone",
     background_color: "#f4f5ef",

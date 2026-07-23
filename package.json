@@ -13,6 +13,7 @@
     "validate:exams": "tsx scripts/validate-exams.ts",
     "audit:exams": "tsx scripts/audit-exams.ts",
     "test:quality": "tsx --test tests/exam-quality.test.ts",
+    "test:programming-study": "tsx --test tests/programming-study.test.ts",
     "import:exams": "tsx scripts/import-exams.ts",
     "report:exams": "tsx scripts/report-exams.ts",
     "generate:pwa-icons": "tsx scripts/generate-pwa-icons.ts"
