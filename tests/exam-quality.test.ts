@@ -160,6 +160,21 @@ test("사용자가 지적한 Python·SQL 문항은 코드로 복원되어 있고
     assert.equal(question.assets.length, 0, `${id}: 불필요 이미지`);
     assert.match(question.questionText, /\| A \| B \|[\s\S]*SELECT A FROM R\nUNION ALL\nSELECT A FROM S;/);
   }
+
+  const playerSql = getQuestion("2025-3-45");
+  assert.equal(
+    playerSql.questionText,
+    "player 테이블에는 player_name, team_id, height 컬럼이 존재한다. 아래 SQL문에서 문법적 오류가 있는 부분은?",
+  );
+  assert.deepEqual(
+    Object.values(playerSql.choices).map((choice) => choice.normalized),
+    [
+      "(1) SELECT player_name, height",
+      "(2) FROM player",
+      "(3) WHERE team_id = 'korea'",
+      "(4) AND height BETWEEN 170 OR 180;",
+    ],
+  );
 });
 
 test("공개 API 모델에는 원문이 노출되지 않고 normalized만 제공된다", () => {

@@ -1741,24 +1741,24 @@
     {
       "questionNo": 45,
       "subject": "데이터베이스 구축",
-      "questionText": "player 테이블에는 player_name, team_id, height 컬럼이 존재한다. 아래 SQL문에서 문법적 오류가 있는 부분은?\n\n(1) SELECT player_name, height\n(2) FROM player\n(3) WHERE team_id = 'korea'\n(4) AND height BETWEEN 170 OR 180;",
+      "questionText": "player 테이블에는 player_name, team_id, height 컬럼이 존재한다. 아래 SQL문에서 문법적 오류가 있는 부분은?",
       "originalQuestionText": "player 테이블에는 player_name, team_id, height 컬럼이 존재한다 .\n아래 SQL 문에서 문법적 오류가 있는 부분은 ?\n(1) SELECT player_name, height\n(2) FROM player\n(3) WHERE team_id = ‘korea’\n(4) AND height BETWEEN 170 OR 180;",
       "choices": {
         "A": {
           "original": "① (1)",
-          "normalized": "(1)"
+          "normalized": "(1) SELECT player_name, height"
         },
         "B": {
           "original": "② (2)",
-          "normalized": "(2)"
+          "normalized": "(2) FROM player"
         },
         "C": {
           "original": "③ (3)",
-          "normalized": "(3)"
+          "normalized": "(3) WHERE team_id = 'korea'"
         },
         "D": {
           "original": "④ (4)",
-          "normalized": "(4)"
+          "normalized": "(4) AND height BETWEEN 170 OR 180;"
         }
       },
       "correctAnswer": "D",
@@ -1766,7 +1766,7 @@
       "sourcePage": 3,
       "sourceType": "uploaded_exam_pdf",
       "sourceDocument": "2025년3회_정보처리기사 필기_기출문제.pdf",
-      "normalizedHash": "5735f25b6213cc529e075636bcdcb46f757b4c7265e2ab2eadc40d00b9d464e2",
+      "normalizedHash": "5c42fd35f26a382654e3a01aa1779ed491b3230ce8ea2bd82b7153cdca712186",
       "assets": [],
       "hasImageReference": false,
       "isCode": false,

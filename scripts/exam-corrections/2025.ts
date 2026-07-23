@@ -775,12 +775,13 @@ while True:
     questionText: "데이터 무결성 제약 조건 중 개체 무결성 제약 조건에 대한 설명으로 맞는 것은?",
   },
   "2025-3-45": {
-    questionText: `player 테이블에는 player_name, team_id, height 컬럼이 존재한다. 아래 SQL문에서 문법적 오류가 있는 부분은?
-
-(1) SELECT player_name, height
-(2) FROM player
-(3) WHERE team_id = 'korea'
-(4) AND height BETWEEN 170 OR 180;`,
+    questionText: "player 테이블에는 player_name, team_id, height 컬럼이 존재한다. 아래 SQL문에서 문법적 오류가 있는 부분은?",
+    choices: {
+      A: "(1) SELECT player_name, height",
+      B: "(2) FROM player",
+      C: "(3) WHERE team_id = 'korea'",
+      D: "(4) AND height BETWEEN 170 OR 180;",
+    },
     isSql: true,
   },
   "2025-3-46": { isSql: false },
