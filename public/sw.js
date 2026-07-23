@@ -1,5 +1,5 @@
-const CACHE = "jeongcheogi-v20";
-const QUESTIONS = "/api/questions?v=20260723-20";
+const CACHE = "jeongcheogi-v21";
+const QUESTIONS = "/api/questions?v=20260723-21";
 const SHELL = ["/manifest.webmanifest", "/icon.svg", "/icon-192.png", "/icon-512.png", "/icon-maskable-512.png", "/apple-touch-icon.png", "/study/programming", "/study/programming/c", "/study/programming/java", "/study/programming/python", "/study/programming/sql"];
 
 async function cacheResponse(cache, request) {

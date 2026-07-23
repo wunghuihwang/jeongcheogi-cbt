@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 type Key = "A" | "B" | "C" | "D";
 type Question = {
   id: string;
+  canonicalId: string;
   year: number;
   round: number;
   questionNo: number;
@@ -173,6 +174,20 @@ function shuffle<T>(input: T[]) {
   return a;
 }
 
+function uniqueQuestions(questions: Question[]): Question[] {
+  const seen = new Set<string>();
+  return questions.filter((question) => {
+    if (seen.has(question.canonicalId)) return false;
+    seen.add(question.canonicalId);
+    return true;
+  });
+}
+
+function canonicalSavedIds(ids: string[], bank: Question[]): Set<string> {
+  const canonicalById = new Map(bank.map((question) => [question.id, question.canonicalId]));
+  return new Set(ids.map((id) => canonicalById.get(id) ?? id));
+}
+
 export function CbtApp() {
   const [bank, setBank] = useState<Question[]>([]),
     [saved, setSaved] = useState<Saved>(EMPTY),
@@ -189,7 +204,7 @@ export function CbtApp() {
     [loading, setLoading] = useState(true);
   const [pwaReady, setPwaReady] = useState(false);
   useEffect(() => {
-      fetch("/api/questions?v=20260723-20", { cache: "no-store" })
+      fetch("/api/questions?v=20260723-21", { cache: "no-store" })
       .then((r) => r.json())
       .then((d) => setBank(d.questions))
       .finally(() => setLoading(false));
@@ -213,14 +228,17 @@ export function CbtApp() {
   }, [saved, bank.length]);
   const stats = useMemo(
     () => ({
-      solved: new Set(saved.seen).size,
-      wrong: new Set(saved.wrong).size,
-      bookmarks: new Set(saved.bookmarks).size,
+      solved: canonicalSavedIds(saved.seen, bank).size,
+      wrong: canonicalSavedIds(saved.wrong, bank).size,
+      bookmarks: canonicalSavedIds(saved.bookmarks, bank).size,
     }),
-    [saved],
+    [saved, bank],
   );
   function start() {
     let pool = [...bank];
+    const wrongIds = canonicalSavedIds(saved.wrong, bank);
+    const seenIds = canonicalSavedIds(saved.seen, bank);
+    const bookmarkIds = canonicalSavedIds(saved.bookmarks, bank);
     if (mode === "round")
       pool = pool
         .filter((q) => q.year === +year && q.round === +round)
@@ -230,19 +248,26 @@ export function CbtApp() {
         (q) => subject === SUBJECTS[0] || q.subject === subject,
       );
     else if (mode === "wrong")
-      pool = pool.filter((q) => saved.wrong.includes(q.id));
+      pool = pool.filter((q) => wrongIds.has(q.canonicalId));
     else if (mode === "unseen")
-      pool = pool.filter((q) => !saved.seen.includes(q.id));
+      pool = pool.filter((q) => !seenIds.has(q.canonicalId));
     else if (mode === "bookmark")
-      pool = pool.filter((q) => saved.bookmarks.includes(q.id));
+      pool = pool.filter((q) => bookmarkIds.has(q.canonicalId));
     else if (mode === "code") pool = pool.filter((q) => q.isCode);
     else if (mode === "sql") pool = pool.filter((q) => q.isSql);
     if (mode === "real") {
-      const mixed = SUBJECTS.slice(1).flatMap((s) =>
-        shuffle(pool.filter((q) => q.subject === s)).slice(0, 20),
-      );
+      const used = new Set<string>();
+      const mixed = SUBJECTS.slice(1).flatMap((s) => {
+        const selected = uniqueQuestions(
+          shuffle(pool.filter((q) => q.subject === s)),
+        )
+          .filter((question) => !used.has(question.canonicalId))
+          .slice(0, 20);
+        selected.forEach((question) => used.add(question.canonicalId));
+        return selected;
+      });
       pool = shuffle(mixed);
-    } else if (mode !== "round") pool = shuffle(pool).slice(0, count);
+    } else if (mode !== "round") pool = shuffle(uniqueQuestions(pool)).slice(0, count);
     if (!pool.length) {
       alert("조건에 맞는 문제가 없습니다.");
       return;
@@ -276,18 +301,32 @@ export function CbtApp() {
       };
     });
     setResults(graded);
+    const canonicalByExamId = new Map(
+      exam.map((question) => [question.id, question.canonicalId]),
+    );
+    const correctCanonicalIds = new Set(
+      graded
+        .filter((result) => result.isCorrect === true)
+        .map((result) => canonicalByExamId.get(result.id))
+        .filter((id): id is string => Boolean(id)),
+    );
     const wrong = graded
-      .filter((x: Result) => x.isCorrect === false)
-      .map((x: Result) => x.id);
+      .filter((result) => result.isCorrect === false)
+      .map((result) => canonicalByExamId.get(result.id))
+      .filter((id): id is string => Boolean(id));
     setSaved((s) => ({
       ...s,
       answers: { ...s.answers, ...answers },
-      seen: [...new Set([...s.seen, ...exam.map((q) => q.id)])],
+      seen: [
+        ...new Set([
+          ...canonicalSavedIds(s.seen, bank),
+          ...exam.map((question) => question.canonicalId),
+        ]),
+      ],
       wrong: [
         ...new Set([
-          ...s.wrong.filter(
-            (id) =>
-              !graded.some((x: Result) => x.id === id && x.isCorrect),
+          ...[...canonicalSavedIds(s.wrong, bank)].filter(
+            (id) => !correctCanonicalIds.has(id),
           ),
           ...wrong,
         ]),
@@ -300,7 +339,7 @@ export function CbtApp() {
     return (
       <main className="loading">
         <span className="loader" />
-        <p>1,200문항을 불러오는 중</p>
+        <p>기출문항을 불러오는 중</p>
       </main>
     );
   if (view === "exam") {
@@ -317,13 +356,24 @@ export function CbtApp() {
             <b>{index + 1}</b> / {exam.length}
           </div>
           <button
-            className={saved.bookmarks.includes(q.id) ? "marked" : ""}
+            className={
+              canonicalSavedIds(saved.bookmarks, bank).has(q.canonicalId)
+                ? "marked"
+                : ""
+            }
             onClick={() =>
               setSaved((s) => ({
                 ...s,
-                bookmarks: s.bookmarks.includes(q.id)
-                  ? s.bookmarks.filter((x) => x !== q.id)
-                  : [...s.bookmarks, q.id],
+                bookmarks: canonicalSavedIds(s.bookmarks, bank).has(
+                  q.canonicalId,
+                )
+                  ? [...canonicalSavedIds(s.bookmarks, bank)].filter(
+                      (id) => id !== q.canonicalId,
+                    )
+                  : [
+                      ...canonicalSavedIds(s.bookmarks, bank),
+                      q.canonicalId,
+                    ],
               }))
             }
           >
@@ -483,7 +533,7 @@ export function CbtApp() {
   }
   const modes = [
     ["round", "회차 그대로", "원본 순서 100문제"],
-    ["random", "랜덤 풀이", "여러 연도에서 골고루"],
+    ["random", "랜덤 풀이", "중복 없는 고유문항"],
     ["real", "실전 CBT", "과목별 20문제"],
     ["subject", "과목 집중", "취약 과목만"],
     ["wrong", "오답 다시", "틀린 문제 복습"],

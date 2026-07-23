@@ -15,8 +15,21 @@ export function getExams(): ExamData[] {
 }
 
 export function publicQuestions() {
-  return getExams().flatMap((exam) => exam.questions.map((q) => ({
+  return getExams().flatMap((exam) => exam.questions.map((q) => {
+    const normalizeDuplicateText = (value: string) => {
+      const normalized = value.normalize("NFKC");
+      return q.isCode || q.isSql
+        ? normalized
+        : normalized.replace(/[\s'"‘’“”]/g, "");
+    };
+    const canonicalSource = `${normalizeDuplicateText(q.questionText)}|${Object.values(q.choices)
+      .map((choice) => normalizeDuplicateText(choice.normalized))
+      .sort((a, b) => a.localeCompare(b, "ko"))
+      .join("|")}`;
+    const canonicalId = `question-${createHash("sha256").update(canonicalSource).digest("hex").slice(0, 24)}`;
+    return ({
     id: `${exam.year}-${exam.round}-${q.questionNo}`, year: exam.year, round: exam.round,
+    canonicalId,
     questionNo: q.questionNo, subject: q.subject, questionText: q.questionText,
     choices: Object.fromEntries(Object.entries(q.choices).map(([k, v]) => [k, v.normalized])),
     sourcePage: q.sourcePage, sourceType: q.sourceType, hasImageReference: q.hasImageReference,
@@ -31,5 +44,5 @@ export function publicQuestions() {
     isCode: q.isCode, isSql: q.isSql, needsReview: q.needsReview,
     correctAnswer: q.correctAnswer, explanation: q.explanation,
     explanationStatus: q.explanationStatus, explanationSource: q.explanationSource,
-  })));
+  }); }));
 }
